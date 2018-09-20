@@ -10,3 +10,15 @@ E:\PYS.CO.IdentityServer\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0
 E:\PYS.CO.IdentityServer\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.AssemblyInfo.cs
 E:\PYS.CO.IdentityServer\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.dll
 E:\PYS.CO.IdentityServer\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.pdb
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\PYS.IdentityServer.Security.deps.json
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\PYS.IdentityServer.Security.runtimeconfig.json
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\PYS.IdentityServer.Security.runtimeconfig.dev.json
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\PYS.IdentityServer.Security.dll
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\PYS.IdentityServer.Security.pdb
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.csprojAssemblyReference.cache
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.csproj.CoreCompileInputs.cache
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.AssemblyInfoInputs.cache
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.AssemblyInfo.cs
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.dll
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.pdb
