@@ -235,13 +235,3 @@
             -moz-border-radius: 3px 0 0 3px;
             border-radius: 3px 0 0 3px;
         }
-        /*NAV bar */
-
-.navbar-white{
-     text-align:center;
-    color:white;
-    font-size:large;
-}
-.menu-container {
-    width:200px;
-}

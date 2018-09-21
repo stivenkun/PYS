@@ -81,3 +81,46 @@
 .grants .grant li:last-child:after {
   content: '';
 }
+/*tables*/
+.customTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .customTable td, .customTable th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .customTable tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .customTable tr:hover {
+        background-color: #ddd;
+    }
+
+    .customTable th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    /*body*/
+.body-top {
+    margin-top: 0px;
+}
+/*NAV bar */
+
+.navbar-white {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.menu-container {
+    width: 200px;
+}

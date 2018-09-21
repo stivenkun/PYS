@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="~/css/palette.css" />
     <link rel="stylesheet" href="~/css/Menu/Menu.css" />
 </head>
-<body style="background-color:azure">
+<body class="body-top" style="background-color:azure">
     <div class="navbar-fixed-top menu-container">
         @if (!string.IsNullOrWhiteSpace(name))
         {
@@ -32,10 +32,15 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="~/">
-                    <span class="navbar-white">
-                        @*<img src="~/logo-thumb.jpg" class="icon-banner">*@
-                        Portal de Seguridad PYS
-                    </span>
+                    <div class="navbar-white">
+                        <span>
+                            @*<img src="~/logo-thumb.jpg" class="icon-banner">*@
+                            Portal de Seguridad
+                        </span>
+                        <span>
+                            PYS
+                        </span>
+                    </div>
                 </a>
             </div>
             <div id='cssmenu'>
