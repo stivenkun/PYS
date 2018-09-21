@@ -50,21 +50,22 @@
                         <a href='#'><span>Aplicaciones</span></a>
                         <ul>
                             <li><a asp-action="Index" asp-controller="ApiResource">Listar</a></li>
-                            @*<li class='has-sub'>
-                                    <a href='#'><span>Listar</span></a>
-                                    <ul>
-                                        <li><a href='#'><span>Sub Product</span></a></li>
-                                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                             @*<li class='has-sub'>
+                                <a href='#'><span>Listar</span></a>
+                                <ul>
+                                    <li><a href='#'><span>Sub Product</span></a></li>
+                                    <li class='last'><a href='#'><span>Sub Product</span></a></li>
 
-                                    </ul>
-                                </li>*@
-                            <li class='has-sub'>
+                                </ul>
+                            </li>*@
+                                                @*<li class='has-sub'>
                                 <a href='#'><span>Crear</span></a>
                                 <ul>
                                     <li><a href='#'><span>Sub Product</span></a></li>
                                     <li class='last'><a href='#'><span>Sub Product</span></a></li>
                                 </ul>
-                            </li>
+                            </li>*@
+                            <li><a asp-action="Create" asp-controller="ApiResource">Crear</a></li>
                         </ul>
 
                     </li>
@@ -80,12 +81,12 @@
                             <li><a asp-action="Index" asp-controller="Client">Listar</a></li>
                         </ul>
                     </li>
-                    <li>
+                    @*<li>
                         <a href='#'><span>Recursos</span></a>
                         <ul>
                             <li><a asp-action="Index" asp-controller="ApiResource">API</a></li>
                         </ul>
-                    </li>
+                    </li>*@
                     <li><a href='#'><span>About</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
                 </ul>

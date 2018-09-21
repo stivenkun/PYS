@@ -124,3 +124,7 @@
 .menu-container {
     width: 200px;
 }
+.custom-btn-color-green {
+    background-color: #4CAF50;
+    border-radius:unset;
+}
