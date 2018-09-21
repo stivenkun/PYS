@@ -78,7 +78,7 @@
             }
 /* Custom CSS Styles */
 #cssmenu {
-    width: 200px;
+    width: 100%;
     height:800px;
     background: #333333;
     font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
@@ -241,4 +241,7 @@
      text-align:center;
     color:white;
     font-size:large;
+}
+.menu-container {
+    width:200px;
 }
