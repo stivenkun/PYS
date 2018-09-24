@@ -128,3 +128,15 @@
     background-color: #4CAF50;
     border-radius:unset;
 }
+
+.container > *{
+    padding-left:10%;
+
+}
+.panel-heading {
+    background-color:#4CAF50 !important;
+}
+
+.btn-primary {
+    background-color: #4CAF50 !important;
+}

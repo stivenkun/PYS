@@ -11305,301 +11305,268 @@ Error Number:258,State:0,Class:20
 2018-09-21 10:59:29.886 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
 2018-09-21 10:59:29.988 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
 2018-09-21 10:59:30.389 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:04:40.698 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:04:40.701 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:04:40.706 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:04:42.521 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:04:42.541 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:04:42.556 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:30:57.374 -05:00 [INF] Clearing 0 tokens
-2018-09-21 11:36:02.788 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:02.791 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:02.795 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:03.615 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:03.626 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:03.671 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:03.698 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:03.734 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:03.847 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:36:04.096 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:18.857 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:18.863 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:18.867 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.237 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.266 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.331 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.332 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.345 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.352 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:38:19.515 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:20.063 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:20.069 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:20.074 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.509 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.616 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.627 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.654 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.674 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.721 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.760 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.840 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.931 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:42:21.995 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:56.262 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:56.269 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:56.276 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:56.993 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:57.013 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:57.013 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:57.020 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:57.026 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:57.080 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:44:57.285 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:29.895 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:29.902 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:29.908 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.324 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.324 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.339 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.349 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.356 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.452 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:46:30.510 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:29.151 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:29.158 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:29.162 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.266 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.276 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.415 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.429 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.446 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.465 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:30.654 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:46.664 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:46.671 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:46.677 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.462 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.472 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.480 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.480 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.504 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.519 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 11:57:47.878 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:25.610 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:25.614 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:25.617 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.116 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.183 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.235 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.242 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.269 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.285 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:00:26.505 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:10.738 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:10.741 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:10.744 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:11.560 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:11.564 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:18.708 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:18.711 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:18:18.719 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:25:59.185 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:25:59.193 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:25:59.203 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:00.785 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:00.794 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:00.828 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:00.853 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:00.901 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:00.920 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:38.455 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:38.465 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:38.470 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:39.306 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:39.472 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:39.491 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:39.506 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:39.522 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:39.545 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:50.294 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:50.302 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:50.305 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:55.480 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:55.490 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:55.497 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:26:56.284 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:11.762 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:11.770 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:11.776 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.370 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.395 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.425 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.438 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.485 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.561 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:13.694 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 12:30:57.596 -05:00 [INF] Clearing 0 tokens
-2018-09-21 13:30:58.322 -05:00 [INF] Clearing 0 tokens
-2018-09-21 14:16:00.161 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:16:00.178 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:16:00.187 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:16:01.351 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:16:01.360 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:16:01.415 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:30:59.072 -05:00 [INF] Clearing 0 tokens
-2018-09-21 14:32:32.358 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:32.361 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:32.364 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:32.874 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:32.910 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:38.571 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:38.576 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:32:38.581 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:02.943 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:02.954 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:02.958 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:20.442 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:20.451 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:20.454 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:36.319 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:36.325 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:33:36.333 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:36:03.560 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:36:03.566 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:36:03.573 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:44.541 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:44.547 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:44.552 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:45.074 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:45.098 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:45.116 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:45.129 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:45.142 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:37:45.156 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.461 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.469 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.474 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.878 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.886 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.904 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:02.915 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:03.006 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:03.039 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:07.025 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:07.029 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:07.040 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:10.921 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:10.931 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:10.944 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:12.805 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:12.813 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:38:12.818 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:53.063 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:53.066 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:53.070 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:53.642 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:53.661 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:55.390 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:55.393 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:51:55.399 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.257 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.262 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.265 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.805 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.823 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.815 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:57.791 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:56.811 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 14:56:58.785 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:04.351 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:04.366 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:04.370 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:04.978 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:05.068 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:05.081 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:05.097 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:05.107 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:11:05.135 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:56.233 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:56.239 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:56.246 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:56.833 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:57.052 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:57.132 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:57.143 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:57.159 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:15:57.192 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:39.503 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:39.513 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:39.518 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:40.033 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:40.088 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:40.132 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:40.137 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:40.148 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:22:40.157 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
-2018-09-21 15:30:59.791 -05:00 [INF] Clearing 0 tokens
-2018-09-21 16:31:00.595 -05:00 [INF] Clearing 0 tokens
-2018-09-21 17:31:01.370 -05:00 [INF] Clearing 0 tokens
-2018-09-21 18:31:02.122 -05:00 [INF] Clearing 0 tokens
-2018-09-21 19:31:02.893 -05:00 [INF] Clearing 0 tokens
-2018-09-21 20:31:03.795 -05:00 [INF] Clearing 0 tokens
-2018-09-21 21:31:04.522 -05:00 [INF] Clearing 0 tokens
-2018-09-21 22:31:05.262 -05:00 [INF] Clearing 0 tokens
-2018-09-21 23:31:06.028 -05:00 [INF] Clearing 0 tokens
-2018-09-22 00:31:06.849 -05:00 [INF] Clearing 0 tokens
-2018-09-22 01:31:07.603 -05:00 [INF] Clearing 0 tokens
-2018-09-22 02:31:08.358 -05:00 [INF] Clearing 0 tokens
-2018-09-22 03:31:09.123 -05:00 [INF] Clearing 0 tokens
-2018-09-22 04:31:09.911 -05:00 [INF] Clearing 0 tokens
-2018-09-22 05:31:10.645 -05:00 [INF] Clearing 0 tokens
-2018-09-22 06:31:11.508 -05:00 [INF] Clearing 0 tokens
-2018-09-22 07:31:12.306 -05:00 [INF] Clearing 0 tokens
-2018-09-22 08:31:13.144 -05:00 [INF] Clearing 0 tokens
-2018-09-22 09:31:13.912 -05:00 [INF] Clearing 0 tokens
-2018-09-22 10:31:14.710 -05:00 [INF] Clearing 0 tokens
-2018-09-22 11:31:15.546 -05:00 [INF] Clearing 0 tokens
-2018-09-22 12:31:16.544 -05:00 [INF] Clearing 0 tokens
-2018-09-22 13:31:17.253 -05:00 [INF] Clearing 0 tokens
-2018-09-22 14:31:18.024 -05:00 [INF] Clearing 0 tokens
-2018-09-22 15:31:18.805 -05:00 [INF] Clearing 0 tokens
-2018-09-22 16:31:19.655 -05:00 [INF] Clearing 0 tokens
-2018-09-22 17:31:20.636 -05:00 [INF] Clearing 0 tokens
-2018-09-22 18:31:21.410 -05:00 [INF] Clearing 0 tokens
-2018-09-22 19:31:22.126 -05:00 [INF] Clearing 0 tokens
-2018-09-22 20:31:22.940 -05:00 [INF] Clearing 0 tokens
-2018-09-22 21:31:23.623 -05:00 [INF] Clearing 0 tokens
-2018-09-22 22:31:24.353 -05:00 [INF] Clearing 0 tokens
-2018-09-22 23:31:25.143 -05:00 [INF] Clearing 0 tokens
-2018-09-23 00:31:25.858 -05:00 [INF] Clearing 0 tokens
-2018-09-23 01:31:26.600 -05:00 [INF] Clearing 0 tokens
-2018-09-23 02:31:27.523 -05:00 [INF] Clearing 0 tokens
-2018-09-23 03:31:28.351 -05:00 [INF] Clearing 0 tokens
-2018-09-23 04:31:29.159 -05:00 [INF] Clearing 0 tokens
-2018-09-23 05:31:29.938 -05:00 [INF] Clearing 0 tokens
-2018-09-23 06:31:31.041 -05:00 [INF] Clearing 0 tokens
-2018-09-23 07:31:31.760 -05:00 [INF] Clearing 0 tokens
-2018-09-23 08:31:32.505 -05:00 [INF] Clearing 0 tokens
-2018-09-23 09:31:33.239 -05:00 [INF] Clearing 0 tokens
-2018-09-23 10:31:34.002 -05:00 [INF] Clearing 0 tokens
-2018-09-23 11:31:34.730 -05:00 [INF] Clearing 0 tokens
-2018-09-23 12:31:35.562 -05:00 [INF] Clearing 0 tokens
-2018-09-23 13:31:36.292 -05:00 [INF] Clearing 0 tokens
-2018-09-23 14:31:37.052 -05:00 [INF] Clearing 0 tokens
-2018-09-23 15:31:37.749 -05:00 [INF] Clearing 0 tokens
-2018-09-23 16:31:38.476 -05:00 [INF] Clearing 0 tokens
-2018-09-23 17:31:39.076 -05:00 [INF] Clearing 0 tokens
-2018-09-23 18:31:39.902 -05:00 [INF] Clearing 0 tokens
-2018-09-23 19:31:40.689 -05:00 [INF] Clearing 0 tokens
-2018-09-23 20:31:41.465 -05:00 [INF] Clearing 0 tokens
-2018-09-23 21:31:42.245 -05:00 [INF] Clearing 0 tokens
-2018-09-23 22:31:43.043 -05:00 [INF] Clearing 0 tokens
-2018-09-23 23:31:43.787 -05:00 [INF] Clearing 0 tokens
-2018-09-24 00:31:44.577 -05:00 [INF] Clearing 0 tokens
-2018-09-24 01:31:45.302 -05:00 [INF] Clearing 0 tokens
-2018-09-24 02:31:46.046 -05:00 [INF] Clearing 0 tokens
-2018-09-24 03:31:46.806 -05:00 [INF] Clearing 0 tokens
-2018-09-24 04:31:47.572 -05:00 [INF] Clearing 0 tokens
-2018-09-24 05:31:48.322 -05:00 [INF] Clearing 0 tokens
-2018-09-24 06:31:49.060 -05:00 [INF] Clearing 0 tokens
-2018-09-24 07:31:49.798 -05:00 [INF] Clearing 0 tokens
+2018-09-23 16:29:57.998 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:29:58.303 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:29:58.308 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:29:58.314 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:29:58.318 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:30:00.600 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:30:02.873 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-23 16:30:17.188 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:30:17.223 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:30:17.224 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:30:17.224 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:30:17.224 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:30:17.338 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:34:17.997 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:34:19.409 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:34:19.412 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:34:19.415 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:34:19.417 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:34:19.680 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:34:20.259 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-23 16:35:28.716 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:35:28.775 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:35:28.778 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:35:28.781 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:35:28.783 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:35:29.022 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:35:29.745 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-23 16:36:09.306 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:36:09.366 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:36:09.369 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:36:09.373 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:36:09.377 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:36:09.670 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:36:10.330 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-23 16:44:41.379 -05:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-23 16:44:46.207 -05:00 [DBG] Augmenting SignInContext
+2018-09-23 16:44:46.257 -05:00 [DBG] Adding idp claim with value: local
+2018-09-23 16:44:46.264 -05:00 [DBG] Adding amr claim with value: pwd
+2018-09-23 16:44:46.270 -05:00 [DBG] Adding auth_time claim with value: 1537739086
+2018-09-23 16:44:46.322 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-09-23 16:44:46.767 -05:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "dimortizp91@gmail.com",
+  "SubjectId": "f6ac8e90-d578-428e-9d5e-557a53901551",
+  "DisplayName": "dimortizp91@gmail.com",
+  "Endpoint": "UI",
+  "ActivityId": "0HLH1JI9SSU2V:00000001",
+  "TimeStamp": "2018-09-23T21:44:46Z",
+  "ProcessId": 7544,
+  "LocalIpAddress": "127.0.0.1:21117",
+  "RemoteIpAddress": "::1"
+}
+2018-09-23 16:44:46.889 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:44:46.897 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:44:46.902 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:45:11.694 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:45:11.699 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:45:11.705 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:45:13.920 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:33.289 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:33.294 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:33.299 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:34.928 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:34.981 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:35.015 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:35.042 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:35.043 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:35.160 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:51:35.528 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.535 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.539 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.542 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.860 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.861 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.918 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.993 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:21.996 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:22.088 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:22.284 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:30.020 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:30.034 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:30.046 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:38.998 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:39.003 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:39.009 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:52.094 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:52.100 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:52.104 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.252 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.263 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.269 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.324 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.330 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.435 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.437 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.490 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:52:55.525 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:54:25.382 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:54:25.438 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:54:25.441 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:54:25.443 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:54:25.446 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:54:25.699 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:54:26.143 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:54:26.171 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:54:26.199 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:55:08.663 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 16:55:08.712 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 16:55:08.715 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 16:55:08.719 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 16:55:08.722 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 16:55:08.969 -05:00 [DBG] Starting token cleanup
+2018-09-23 16:55:09.411 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:55:09.439 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:55:09.460 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:55:21.932 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:55:21.938 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 16:55:21.942 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.278 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.345 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.353 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.747 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.799 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.799 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.801 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.827 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:00:56.905 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:01.900 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:01.904 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:01.908 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:02.040 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:02.065 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:02.193 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:02.230 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:02.255 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:02:03.073 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:04:21.019 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 17:04:21.072 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 17:04:21.077 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 17:04:21.080 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 17:04:21.083 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 17:04:21.574 -05:00 [DBG] Starting token cleanup
+2018-09-23 17:04:22.196 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:04:22.224 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:04:22.245 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:04:28.333 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:04:28.334 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:31.770 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:31.776 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:31.783 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.090 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.168 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.170 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.194 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.196 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.300 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.452 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:32.732 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:34.091 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:34.097 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:34.103 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:37.177 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:37.236 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-23 17:12:37.239 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:37.243 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:12:37.589 -05:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2018-09-23 17:12:37.605 -05:00 [INF] AuthenticationScheme: Identity.External signed out.
+2018-09-23 17:12:37.609 -05:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2018-09-23 17:12:37.789 -05:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "f6ac8e90-d578-428e-9d5e-557a53901551",
+  "DisplayName": "dimortizp91@gmail.com",
+  "ActivityId": "0HLH1K224AQG8:00000002",
+  "TimeStamp": "2018-09-23T22:12:37Z",
+  "ProcessId": 11804,
+  "LocalIpAddress": "127.0.0.1:12418",
+  "RemoteIpAddress": "::1"
+}
+2018-09-23 17:12:58.939 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-23 17:36:22.709 -05:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-23 17:36:26.264 -05:00 [DBG] Augmenting SignInContext
+2018-09-23 17:36:26.270 -05:00 [DBG] Adding idp claim with value: local
+2018-09-23 17:36:26.274 -05:00 [DBG] Adding amr claim with value: pwd
+2018-09-23 17:36:26.277 -05:00 [DBG] Adding auth_time claim with value: 1537742186
+2018-09-23 17:36:26.285 -05:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2018-09-23 17:36:26.431 -05:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "dimortizp91@gmail.com",
+  "SubjectId": "f6ac8e90-d578-428e-9d5e-557a53901551",
+  "DisplayName": "dimortizp91@gmail.com",
+  "Endpoint": "UI",
+  "ActivityId": "0HLH1K224AQGT:00000001",
+  "TimeStamp": "2018-09-23T22:36:26Z",
+  "ProcessId": 11804,
+  "LocalIpAddress": "127.0.0.1:12418",
+  "RemoteIpAddress": "::1"
+}
+2018-09-23 17:36:26.451 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:36:26.454 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:36:26.457 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:36:26.513 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:36:26.544 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:52.533 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-23 17:47:52.570 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-23 17:47:52.573 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-23 17:47:52.575 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-23 17:47:52.579 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-23 17:47:52.770 -05:00 [DBG] Starting token cleanup
+2018-09-23 17:47:52.993 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:53.019 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:53.035 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:55.943 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:56.000 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:56.001 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:56.001 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:56.027 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:47:56.188 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:49:55.241 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:49:55.244 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:49:55.247 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:49:58.384 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.283 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.286 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.289 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.523 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.566 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.614 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.614 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.616 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.736 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:22.773 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:23.011 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:40.752 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:40.758 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:40.762 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:40.962 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:42.059 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:42.070 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-23 17:50:42.074 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:42.076 -05:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2018-09-23 17:50:42.129 -05:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2018-09-23 17:50:42.134 -05:00 [INF] AuthenticationScheme: Identity.External signed out.
+2018-09-23 17:50:42.139 -05:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2018-09-23 17:50:42.213 -05:00 [INF] {
+  "Name": "User Logout Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1002,
+  "SubjectId": "f6ac8e90-d578-428e-9d5e-557a53901551",
+  "DisplayName": "dimortizp91@gmail.com",
+  "ActivityId": "0HLH1KQC9GF3F:00000005",
+  "TimeStamp": "2018-09-23T22:50:42Z",
+  "ProcessId": 6148,
+  "LocalIpAddress": "127.0.0.1:16248",
+  "RemoteIpAddress": "::1"
+}
