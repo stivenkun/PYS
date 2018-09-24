@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Authentication;
@@ -22,10 +23,10 @@ using IdentityServerWithAspIdAndEF.Services;
 using IdentityServerWithAspIdAndEF.Extensions;
 using IdentityServer4.Authorize.UI;
 
-namespace PYS.IdentityServer.Security.Administration.Authorize.Account
+namespace PYS.IdentityServer.Security.Authorize.Account
 {
     [Produces("application/json")]
-    [Route("api/Account")]
+    [Route("Api/Account")]
     public class ApiAccountController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -45,7 +46,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Account
             IAuthenticationSchemeProvider schemeProvider,
             IEventService events,
             IEmailSender emailSender,
-            ILogger<AccountController> logger)
+            ILogger<ApiAccountController> logger)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -166,5 +167,5 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Account
                 ExternalProviders = providers.ToArray()
             };
         }
-    }
+    } 
 }
