@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using IdentityServerWithAspIdAndEF.Profiles;
 using IdentityServerWithAspIdAndEF.Services;
-
+using AspNetCore.RouteAnalyzer;
 namespace IdentityServerWithAspIdAndEF
 {
     public class Startup
@@ -48,6 +48,7 @@ namespace IdentityServerWithAspIdAndEF
                 .AddDefaultTokenProviders();
 
             services.AddMvc();
+            
 
             services.Configure<IISOptions>(iis =>
             {
@@ -97,7 +98,13 @@ namespace IdentityServerWithAspIdAndEF
                     options.ClientId = "708996912208-9m4dkjb5hscn7cjrn5u0r4tbgkbj1fko.apps.googleusercontent.com";
                     options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
                 });
+            //services.AddAuthentication("Bearer").AddIdentityServerAuthentication(options =>
+            //{
+            //    options.Authority = "http://localhost:5000";
+            //    options.RequireHttpsMetadata = false;
 
+            //    options.ApiName = "api1";
+            //});
 
             services.AddTransient<IEmailSender, EmailSender>();
 
@@ -126,6 +133,8 @@ namespace IdentityServerWithAspIdAndEF
                 {
                     options.TokenValidationParameters = tokenValidationParameters;
                 });
+
+            services.AddRouteAnalyzer();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -139,8 +148,14 @@ namespace IdentityServerWithAspIdAndEF
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            app.UseMvc(routes =>
+            {
+                routes.MapRouteAnalyzer("/routes"); // Add
+                   
+                });
+            
             app.UseStaticFiles();
+            app.UseDefaultFiles();
             app.UseIdentityServer();
             app.UseMvcWithDefaultRoute();
         }

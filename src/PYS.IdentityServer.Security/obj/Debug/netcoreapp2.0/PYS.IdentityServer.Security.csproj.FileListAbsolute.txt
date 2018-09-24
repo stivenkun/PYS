@@ -17,7 +17,6 @@ D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug
 D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\PYS.IdentityServer.Security.pdb
 D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.csprojAssemblyReference.cache
 D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.csproj.CoreCompileInputs.cache
-D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.AssemblyInfoInputs.cache
 D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.AssemblyInfo.cs
 D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.dll
@@ -34,3 +33,4 @@ D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.
 D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.AssemblyInfo.cs
 D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.dll
 D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.pdb
+D:\Backup\PYS.CO.IdentityServer-master\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
