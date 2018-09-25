@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "AspNetCore.RouteAnalyzer/0.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore": "2.0.0",
+          "Microsoft.AspNetCore.Mvc": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/AspNetCore.RouteAnalyzer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/AspNetCore.RouteAnalyzer.dll": {}
+        }
+      },
       "AutoMapper/6.1.1": {
         "type": "package",
         "dependencies": {
@@ -31,16 +44,32 @@
           "lib/netstandard1.3/AutoMapper.dll": {}
         }
       },
-      "IdentityModel/3.0.0": {
+      "IdentityModel/3.6.0": {
         "type": "package",
         "dependencies": {
-          "Newtonsoft.Json": "10.0.3"
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.4.0"
         },
         "compile": {
           "lib/netstandard2.0/IdentityModel.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/IdentityModel.dll": {}
+        }
+      },
+      "IdentityModel.AspNetCore.OAuth2Introspection/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel": "3.6.0",
+          "Microsoft.AspNetCore.Authentication": "2.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.0",
+          "Microsoft.Extensions.Caching.Memory": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll": {}
         }
       },
       "IdentityServer4/2.1.0": {
@@ -62,6 +91,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.AccessTokenValidation/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "IdentityModel.AspNetCore.OAuth2Introspection": "3.3.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.0.0",
+          "Microsoft.AspNetCore.Authorization": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.dll": {}
         }
       },
       "IdentityServer4.AspNetIdentity/2.0.0": {
@@ -4523,11 +4566,11 @@
           "lib/netstandard1.3/System.Runtime.Serialization.Json.dll": {}
         }
       },
-      "System.Runtime.Serialization.Primitives/4.3.0": {
+      "System.Runtime.Serialization.Primitives/4.1.1": {
         "type": "package",
         "dependencies": {
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.Resources.ResourceManager": "4.0.1",
+          "System.Runtime": "4.1.0"
         },
         "compile": {
           "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
@@ -5227,6 +5270,17 @@
     }
   },
   "libraries": {
+    "AspNetCore.RouteAnalyzer/0.5.1": {
+      "sha512": "slxBURm28TfZPlVdpOLKTa9MrBVlMgxSb5aX8Sjko/vFVXm09UaS9VBYod0554vO4tzIOqhiUJQSabjTQ+4f6g==",
+      "type": "package",
+      "path": "aspnetcore.routeanalyzer/0.5.1",
+      "files": [
+        "aspnetcore.routeanalyzer.0.5.1.nupkg.sha512",
+        "aspnetcore.routeanalyzer.nuspec",
+        "lib/netcoreapp2.0/AspNetCore.RouteAnalyzer.dll",
+        "lib/netcoreapp2.0/AspNetCore.RouteAnalyzer.pdb"
+      ]
+    },
     "AutoMapper/6.1.1": {
       "sha512": "A+6PAblvzmkXPS20nFBQJvlNSW5oEdyfN5+cxT/Du35fTNyuP5pNDXT64KT/jBgxt7CPduOM0Y7oLnNe0E5IXg==",
       "type": "package",
@@ -5242,12 +5296,12 @@
         "lib/netstandard1.3/AutoMapper.xml"
       ]
     },
-    "IdentityModel/3.0.0": {
-      "sha512": "EKMOOUUqDzBR3goiA8eWJ1aQBz1AMfKVxxR7XnzAf5qq2k9vr6GT91SyHmzC14KINpNNJOrbmowXf5S04gQ0ZA==",
+    "IdentityModel/3.6.0": {
+      "sha512": "7398ntAQ/wlrZA9IjXA8ixrPIomBqnY3fp10FLle6WhhyWdZIEuhZEgvAfIEo+6zjktmJvhwBOAuQeNULNVyDQ==",
       "type": "package",
-      "path": "identitymodel/3.0.0",
+      "path": "identitymodel/3.6.0",
       "files": [
-        "identitymodel.3.0.0.nupkg.sha512",
+        "identitymodel.3.6.0.nupkg.sha512",
         "identitymodel.nuspec",
         "lib/net452/IdentityModel.dll",
         "lib/net452/IdentityModel.xml",
@@ -5257,6 +5311,21 @@
         "lib/netstandard1.4/IdentityModel.xml",
         "lib/netstandard2.0/IdentityModel.dll",
         "lib/netstandard2.0/IdentityModel.xml"
+      ]
+    },
+    "IdentityModel.AspNetCore.OAuth2Introspection/3.3.0": {
+      "sha512": "WQzG293uJ0ble6fVenVH/A4FM84vKXvq5MXG3nIv8TG+kkWKU75+z3d2sqFuWWB4ku3GB6AASjkw4xD4b0xYsw==",
+      "type": "package",
+      "path": "identitymodel.aspnetcore.oauth2introspection/3.3.0",
+      "files": [
+        "identitymodel.aspnetcore.oauth2introspection.3.3.0.nupkg.sha512",
+        "identitymodel.aspnetcore.oauth2introspection.nuspec",
+        "lib/net461/IdentityModel.AspNetCore.OAuth2Introspection.dll",
+        "lib/net461/IdentityModel.AspNetCore.OAuth2Introspection.pdb",
+        "lib/net461/IdentityModel.AspNetCore.OAuth2Introspection.xml",
+        "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll",
+        "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.pdb",
+        "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.xml"
       ]
     },
     "IdentityServer4/2.1.0": {
@@ -5269,6 +5338,21 @@
         "lib/netstandard2.0/IdentityServer4.dll",
         "lib/netstandard2.0/IdentityServer4.pdb",
         "lib/netstandard2.0/IdentityServer4.xml"
+      ]
+    },
+    "IdentityServer4.AccessTokenValidation/2.6.0": {
+      "sha512": "cEY99gicdjVFOH1hJtiJr/2AcaymlwNNqR/a30P+0agPKZ/EebHxVAEqySvQddWDL6sl2Tc1dUQsK8yqP2lj5Q==",
+      "type": "package",
+      "path": "identityserver4.accesstokenvalidation/2.6.0",
+      "files": [
+        "identityserver4.accesstokenvalidation.2.6.0.nupkg.sha512",
+        "identityserver4.accesstokenvalidation.nuspec",
+        "lib/net461/IdentityServer4.AccessTokenValidation.dll",
+        "lib/net461/IdentityServer4.AccessTokenValidation.pdb",
+        "lib/net461/IdentityServer4.AccessTokenValidation.xml",
+        "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.dll",
+        "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.pdb",
+        "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.xml"
       ]
     },
     "IdentityServer4.AspNetIdentity/2.0.0": {
@@ -11933,10 +12017,10 @@
         "system.runtime.serialization.json.nuspec"
       ]
     },
-    "System.Runtime.Serialization.Primitives/4.3.0": {
-      "sha512": "Wz+0KOukJGAlXjtKr+5Xpuxf8+c8739RI1C+A2BoQZT+wMCCoMDDdO8/4IRHfaVINqL78GO8dW8G2lW/e45Mcw==",
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "type": "package",
-      "path": "system.runtime.serialization.primitives/4.3.0",
+      "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -12000,7 +12084,7 @@
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
         "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
-        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.4.1.1.nupkg.sha512",
         "system.runtime.serialization.primitives.nuspec"
       ]
     },
@@ -13636,7 +13720,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "AspNetCore.RouteAnalyzer >= 0.5.1",
       "IdentityServer4 >= 2.1.0",
+      "IdentityServer4.AccessTokenValidation >= 2.6.0",
       "IdentityServer4.AspNetIdentity >= 2.0.0",
       "IdentityServer4.EntityFramework >= 2.1.0",
       "Microsoft.AspNetCore.All >= 2.0.5",
@@ -13651,23 +13737,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL 7000\\.nuget\\packages\\": {},
+    "C:\\Users\\tulio jimenez\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "projectUniqueName": "D:\\Backup\\PYS.CO.IdentityServer-master\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
       "projectName": "PYS.IdentityServer.Security",
-      "projectPath": "D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
-      "packagesPath": "C:\\Users\\DELL 7000\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\obj\\",
+      "projectPath": "D:\\Backup\\PYS.CO.IdentityServer-master\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "packagesPath": "C:\\Users\\tulio jimenez\\.nuget\\packages\\",
+      "outputPath": "D:\\Backup\\PYS.CO.IdentityServer-master\\src\\PYS.IdentityServer.Security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DELL 7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tulio jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13691,9 +13777,17 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "AspNetCore.RouteAnalyzer": {
+            "target": "Package",
+            "version": "[0.5.1, )"
+          },
           "IdentityServer4": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "IdentityServer4.AccessTokenValidation": {
+            "target": "Package",
+            "version": "[2.6.0, )"
           },
           "IdentityServer4.AspNetIdentity": {
             "target": "Package",
