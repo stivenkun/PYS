@@ -13,6 +13,9 @@ using IdentityServerWithAspIdAndEF.Profiles;
 using IdentityServerWithAspIdAndEF.Services;
 using PYS.IdentityServer.Security.Administration.ConfigurationStore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using System.IdentityModel.Tokens.Jwt;
+using Repository.Interfaces;
+using Repository.Repositories;
 
 namespace IdentityServerWithAspIdAndEF
 {
@@ -35,6 +38,12 @@ namespace IdentityServerWithAspIdAndEF
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+
+            //Custom scoped interfaces
+            //services.AddScoped<IUserRepository, UserRepository>();
+
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
             #region basic configuration
             string connectionString = Configuration.GetConnectionString("IdentityServerConnection");
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
@@ -44,9 +53,9 @@ namespace IdentityServerWithAspIdAndEF
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
-            services.AddMvc();
-
-
+            //services.AddIdentity<ApplicationUser, IdentityRole>()
+            //.AddEntityFrameworkStores<ApplicationDbContext>()
+            //.AddDefaultTokenProviders();
 
             services.Configure<IISOptions>(iis =>
             {
@@ -63,6 +72,8 @@ namespace IdentityServerWithAspIdAndEF
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryClients(Config.GetClients());
+
+
             #endregion
 
             #region Stores configuration
@@ -93,10 +104,11 @@ namespace IdentityServerWithAspIdAndEF
             #endregion
 
             #region authorization
-            services.AddAuthorization(options => {
+            services.AddAuthorization(options =>
+            {
                 options.AddPolicy("AdministratorIS", policy => policy
                                                                 .RequireClaim("Application", "IdentityServer")
-                                                                .RequireClaim("IdentityServer","Admin"));
+                                                                .RequireClaim("IdentityServer", "Admin"));
             }
             );
 
@@ -106,7 +118,7 @@ namespace IdentityServerWithAspIdAndEF
             });
 
             #endregion
-
+    
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -122,7 +134,7 @@ namespace IdentityServerWithAspIdAndEF
             }
             app.UseAuthentication();
             app.UseStaticFiles();
-            app.UseIdentityServer();
+            //app.UseIdentityServer();
             app.UseMvcWithDefaultRoute();
         }
     }
