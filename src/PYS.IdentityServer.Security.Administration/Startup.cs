@@ -44,11 +44,6 @@ namespace IdentityServerWithAspIdAndEF
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
-            services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddEntityFrameworkStores<ApplicationDbContext>()
-
-                .AddDefaultTokenProviders();
-
             services.AddMvc();
 
 
@@ -62,36 +57,12 @@ namespace IdentityServerWithAspIdAndEF
             #endregion
 
             #region identity server configuration
-
-            var builder = services.AddIdentityServer(options =>
-                {
-                    options.Events.RaiseErrorEvents = true;
-                    options.Events.RaiseInformationEvents = true;
-                    options.Events.RaiseFailureEvents = true;
-                    options.Events.RaiseSuccessEvents = true;
-                })
-                .AddAspNetIdentity<ApplicationUser>()
-                
-                // this adds the config data from DB (clients, resources)
-                .AddConfigurationStore(options =>
-                {
-                    options.ConfigureDbContext = b =>
-                        b.UseSqlServer(connectionString,
-                            sql => sql.MigrationsAssembly(migrationsAssembly));
-                })
-                // this adds the operational data from DB (codes, tokens, consents)
-                .AddOperationalStore(options =>
-                {
-                    options.ConfigureDbContext = b =>
-                        b.UseSqlServer(connectionString,
-                            sql => sql.MigrationsAssembly(migrationsAssembly));
-
-                    // this enables automatic token cleanup. this is optional.
-                    options.EnableTokenCleanup = true;
-                })
-                .AddResourceStore<ResourceStore>();
-                builder.AddDeveloperSigningCredential();
-
+            // configure identity server with in-memory stores, keys, clients and scopes
+            services.AddIdentityServer()
+                .AddDeveloperSigningCredential()
+                .AddInMemoryIdentityResources(Config.GetIdentityResources())
+                .AddInMemoryApiResources(Config.GetApiResources())
+                .AddInMemoryClients(Config.GetClients());
             #endregion
 
             #region Stores configuration
@@ -103,21 +74,21 @@ namespace IdentityServerWithAspIdAndEF
 
             #region  Authentication
 
-            //services.AddAuthentication(options =>
-            //{
-            //    options.DefaultScheme = "Cookies";
-            //    options.DefaultChallengeScheme = "oidc";
-            //})
-            //.AddCookie("Cookies")
-            //.AddOpenIdConnect("oidc", options =>
-            //{
-            //    options.SignInScheme = "Cookies";
+            services.AddAuthentication(options =>
+            {
+                options.DefaultScheme = "Cookies";
+                options.DefaultChallengeScheme = "oidc";
+            })
+            .AddCookie("Cookies")
+            .AddOpenIdConnect("oidc", options =>
+            {
+                options.SignInScheme = "Cookies";
 
-            //    options.Authority = "http://216.69.181.183/identityserver/";
-            //    options.RequireHttpsMetadata = false;
-            //    options.ClientId = "IdentityServerAdmin";
-            //    options.SaveTokens = true;
-            //});
+                options.Authority = "http://localhost:5000/";
+                options.RequireHttpsMetadata = false;
+                options.ClientId = "mvc";
+                options.SaveTokens = true;
+            });
 
             #endregion
 

@@ -14,6 +14,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using IdentityServerWithAspIdAndEF.Profiles;
 using IdentityServerWithAspIdAndEF.Services;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 
 namespace IdentityServerWithAspIdAndEF
 {
@@ -98,7 +101,6 @@ namespace IdentityServerWithAspIdAndEF
                     options.ClientSecret = "wdfPY6t8H8cecgjlxud__4Gh";
                 });
 
-
             services.AddTransient<IEmailSender, EmailSender>();
 
             var signingKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration.GetSection("TokenAuthentication:SecretKey").Value));
@@ -140,9 +142,13 @@ namespace IdentityServerWithAspIdAndEF
                 app.UseExceptionHandler("/Home/Error");
             }
 
+           
+
             app.UseStaticFiles();
             app.UseIdentityServer();
+            app.UseDefaultFiles();
             app.UseMvcWithDefaultRoute();
+            app.UseMvc();
         }
     }
 }

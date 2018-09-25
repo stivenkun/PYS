@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PYS.IdentityServer.Security.Administration.Authorize.Clients
 {
-    [Authorize(Policy = "AdministratorIS")]
+    //[Authorize(Policy = "AdministratorIS")]
     public class ClientController : Controller
     {
 

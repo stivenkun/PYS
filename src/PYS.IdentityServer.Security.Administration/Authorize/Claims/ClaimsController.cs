@@ -17,7 +17,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PYS.IdentityServer.Security.Administration.Authorize.Claims
 {
-    [Authorize(Policy = "AdministratorIS")]
+    //[Authorize(Policy = "AdministratorIS")]
     public class ClaimsController : Controller
     {
 

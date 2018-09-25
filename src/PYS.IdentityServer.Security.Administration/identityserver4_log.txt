@@ -11570,3 +11570,1131 @@ Error Number:258,State:0,Class:20
   "LocalIpAddress": "127.0.0.1:16248",
   "RemoteIpAddress": "::1"
 }
+2018-09-24 21:18:52.755 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:18:52.826 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:18:52.829 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:18:52.837 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-24 21:18:52.843 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-24 21:18:53.130 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:18:54.040 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-24 21:20:15.040 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-24 21:27:10.425 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:27:10.484 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:27:10.491 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:27:10.493 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-24 21:27:10.496 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-24 21:27:10.809 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:27:11.584 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-24 21:29:44.322 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:29:44.386 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:29:44.391 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:29:44.394 -05:00 [DBG] Using Identity.Application as default scheme for challenge
+2018-09-24 21:29:44.396 -05:00 [DBG] Using Identity.Application as default scheme for forbid
+2018-09-24 21:29:44.682 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:29:45.580 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-24 21:30:00.245 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2018-09-24 21:34:56.311 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:34:56.366 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:34:56.369 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:34:56.374 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 21:34:56.376 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 21:34:56.698 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:35:02.014 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:41:13.808 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:43:48.148 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:25.520 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:25.666 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:25.699 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:25.702 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:25.713 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:28.497 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:28.514 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:28.543 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:28.548 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:28.567 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:31.327 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:31.341 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:31.373 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:31.376 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:31.390 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:34.196 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:34.205 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:34.222 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:34.225 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:34.236 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:37.083 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:37.095 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:37.120 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:37.123 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:37.143 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:39.890 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:39.896 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:39.930 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:39.935 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:39.946 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:42.715 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:42.719 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:42.738 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:42.741 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:42.754 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:45.538 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:45.545 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:45.567 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:45.570 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:45.582 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:48.506 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:48.512 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:48.536 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:48.540 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:48.551 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:51.367 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:51.372 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:51.402 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:51.404 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:51.424 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:54.217 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:54.222 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:54.265 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:54.269 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:54.302 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:44:57.202 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:44:57.213 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:44:57.252 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:57.291 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:44:57.323 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:45:00.199 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:45:00.209 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:45:00.242 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:00.245 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:00.265 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:45:03.141 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:45:03.147 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:45:03.176 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:03.181 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:03.195 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:45:06.060 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:45:06.068 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:45:06.110 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:06.115 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:06.134 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:45:09.032 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:45:09.045 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:45:09.078 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:09.093 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:09.122 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:45:12.003 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 21:45:12.011 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 21:45:12.059 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:12.068 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:45:12.105 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 21:47:35.346 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:47:35.424 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:47:35.428 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:47:35.433 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 21:47:35.439 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 21:47:35.808 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:47:36.201 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:47:36.233 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:47:36.374 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The AuthorizationPolicy named: 'AdministratorIS' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.<CombineAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.AuthorizationApplicationModelProvider.GetFilter(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authData)
+   at Microsoft.AspNetCore.Mvc.Internal.AuthorizationApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 21:56:53.215 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:56:53.299 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:56:53.303 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:56:53.313 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 21:56:53.320 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 21:56:53.731 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:56:54.166 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:56:54.195 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:57:19.949 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 21:57:20.019 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 21:57:20.029 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 21:57:20.033 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 21:57:20.036 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 21:57:20.345 -05:00 [DBG] Starting token cleanup
+2018-09-24 21:57:20.837 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:57:20.888 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 21:57:21.014 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: The AuthorizationPolicy named: 'AdministratorIS' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.<CombineAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.AuthorizationApplicationModelProvider.GetFilter(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authData)
+   at Microsoft.AspNetCore.Mvc.Internal.AuthorizationApplicationModelProvider.OnProvidersExecuting(ApplicationModelProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.BuildModel()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.<RouteAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 22:01:06.734 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 22:01:06.821 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 22:01:06.824 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 22:01:06.827 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 22:01:06.833 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 22:01:07.160 -05:00 [DBG] Starting token cleanup
+2018-09-24 22:01:07.878 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:07.928 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:16.110 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:16.115 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:24.637 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:24.640 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:30.326 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:30.331 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:52.725 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:01:52.730 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:03:48.346 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 22:03:48.452 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 22:03:48.465 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 22:03:48.473 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 22:03:48.482 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 22:03:48.814 -05:00 [DBG] Starting token cleanup
+2018-09-24 22:03:49.227 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:03:49.249 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:06:54.881 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:06:54.885 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:08:14.859 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:08:14.865 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:02.968 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:02.972 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:05.767 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:05.770 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:07.564 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:07.566 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:18.412 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:18.415 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:35.732 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:10:35.734 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:11:51.044 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:11:51.047 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:12:16.667 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:12:16.670 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:13:53.691 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 22:13:53.752 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 22:13:53.762 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 22:13:53.764 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 22:13:53.772 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 22:13:54.144 -05:00 [DBG] Starting token cleanup
+2018-09-24 22:13:54.753 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:13:54.777 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:14:43.066 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:14:43.069 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:14:43.265 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:14:43.267 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:15:06.206 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:15:06.209 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:18:37.102 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:18:37.105 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:19:30.934 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:19:30.937 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:20:31.961 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 22:20:32.107 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 22:20:32.137 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 22:20:32.160 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 22:20:32.190 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 22:20:33.064 -05:00 [DBG] Starting token cleanup
+2018-09-24 22:20:33.653 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:20:33.699 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:17.297 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:22.094 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:22.260 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:22.277 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:22.280 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:22.296 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:25.107 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:25.124 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:25.157 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:25.161 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:25.176 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:27.972 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:27.982 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:28.033 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:28.037 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:28.051 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:30.907 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:30.923 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:30.955 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:30.957 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:30.975 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:33.861 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:33.873 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:33.906 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:33.911 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:33.923 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:36.876 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:36.881 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:36.927 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:36.949 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:36.968 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:40.300 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:40.333 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:40.417 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:40.429 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:40.499 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:43.533 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:43.566 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:43.616 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:43.625 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:43.643 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:46.697 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:46.723 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:46.748 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:46.762 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:46.782 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:49.753 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:49.760 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:49.848 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:49.859 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:49.880 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:52.972 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:52.986 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:53.045 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:53.057 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:53.119 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:56.048 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:56.053 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:56.081 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:56.087 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:56.130 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:21:59.437 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:21:59.446 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:21:59.492 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:59.501 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:21:59.517 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:42:21.274 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.<ChallengeAsync>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.<ExecuteResultAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeResultAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 22:54:11.972 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 22:54:12.138 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 22:54:12.172 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 22:54:12.183 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 22:54:12.187 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 22:54:12.191 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 22:54:13.356 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:54:13.407 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:54:54.130 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:54:54.140 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:54:54.194 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.ApiResourceController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 22:55:05.004 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:55:05.009 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:55:05.041 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.Users.UsersController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 22:55:14.044 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:55:14.051 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 22:55:14.071 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.Users.UsersController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 22:59:29.604 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 22:59:29.731 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 22:59:29.752 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 22:59:29.756 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 22:59:29.761 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 22:59:29.768 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 22:59:30.990 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:31.044 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:36.124 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:40.703 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:40.888 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:40.920 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:40.932 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:40.946 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:43.701 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:43.720 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:43.738 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:43.746 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:43.761 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:46.619 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:46.631 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:46.653 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:46.664 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:46.680 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:49.563 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:49.568 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:49.606 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:49.611 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:49.624 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:52.649 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:52.670 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:52.715 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:52.718 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:52.732 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:55.867 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:55.896 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:55.922 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:55.928 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:55.948 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 22:59:59.014 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 22:59:59.036 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 22:59:59.115 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:59.118 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 22:59:59.134 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:00:02.313 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 23:00:02.342 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:00:02.427 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:00:02.459 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:00:02.512 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:00:45.140 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:00:45.322 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:00:45.340 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:00:45.347 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:00:45.350 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:00:45.354 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:00:46.413 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:00:46.459 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:01:34.009 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:01:34.015 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:02:18.989 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:03:05.677 -05:00 [DBG] CORS request made for path: /signin-oidc from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-09-24 23:03:05.856 -05:00 [DBG] Augmenting SignInContext
+2018-09-24 23:03:05.864 -05:00 [DBG] Adding amr claim with value: pwd
+2018-09-24 23:03:05.868 -05:00 [DBG] Adding auth_time claim with value: 1537848185
+2018-09-24 23:03:05.883 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:03:05.903 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:03:05.907 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:05:01.168 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:05:01.321 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:05:01.336 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:05:01.345 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:05:01.356 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:05:01.360 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:05:02.583 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:05:02.621 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:07:12.417 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:07:12.560 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:07:12.580 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:07:12.584 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:07:12.587 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:07:12.594 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:07:13.573 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:07:13.593 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:07:32.461 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:07:32.465 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:07:32.493 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.Users.UsersController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 23:18:43.588 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:18:43.672 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:18:43.683 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:18:43.684 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:18:43.684 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:18:43.684 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:18:44.405 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:18:44.429 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:18:44.467 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:20:51.817 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:20:52.016 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:20:52.037 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:20:52.040 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:20:52.046 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:20:52.061 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:20:53.589 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:20:53.652 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:20:53.699 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:21:14.691 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:21:14.695 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:21:14.698 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:21:14.738 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.ApiResourceController'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 23:26:41.128 -05:00 [FTL] Application startup exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder)
+   at IdentityServerWithAspIdAndEF.Startup.ConfigureServices(IServiceCollection services) in D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security.Administration\Startup.cs:line 61
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-09-24 23:32:58.222 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:32:58.367 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 23:32:58.378 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 23:32:58.384 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 23:32:58.391 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:32:58.394 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:32:59.628 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:32:59.656 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:32:59.694 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:05.652 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:33:11.255 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:33:11.277 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:11.281 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:11.285 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:11.335 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:33:14.465 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:33:14.533 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:14.537 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:14.545 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:33:14.617 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:07.318 -05:00 [FTL] Application startup exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder)
+   at IdentityServerWithAspIdAndEF.Startup.ConfigureServices(IServiceCollection services) in D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security.Administration\Startup.cs:line 62
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-09-24 23:43:24.036 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:43:24.166 -05:00 [DBG] Using Identity.Application as default scheme for authentication
+2018-09-24 23:43:24.183 -05:00 [DBG] Using Identity.External as default scheme for sign-in
+2018-09-24 23:43:24.188 -05:00 [DBG] Using Identity.External as default scheme for sign-out
+2018-09-24 23:43:24.191 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:43:24.203 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:43:25.234 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:25.269 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:25.316 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:30.166 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:35.025 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:43:35.041 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:35.044 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:35.048 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:35.066 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:38.097 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:43:38.146 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:38.152 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:38.158 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:38.190 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:41.227 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:43:41.259 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:41.261 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:41.263 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:41.276 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:44.464 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:43:44.522 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:44.525 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:44.528 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:44.544 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:47.591 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:43:47.638 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:47.641 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:47.647 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:47.666 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:43:50.680 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-24 23:43:50.706 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:50.710 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:50.714 -05:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2018-09-24 23:43:50.730 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:48:14.212 -05:00 [FTL] Application startup exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services)
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder)
+   at IdentityServerWithAspIdAndEF.Startup.ConfigureServices(IServiceCollection services) in D:\Documentos\Empresa\PYS\src\PYS.IdentityServer.Security.Administration\Startup.cs:line 63
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2018-09-24 23:48:26.442 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:48:26.574 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:48:26.579 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:48:26.582 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:48:26.590 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:48:26.595 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:48:27.719 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:48:27.760 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:48:27.820 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:48:42.058 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:48:42.061 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:48:42.064 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:49:15.279 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:49:15.284 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:49:15.292 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:49:44.269 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:49:44.277 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:49:44.292 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:50:42.024 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:50:42.200 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:50:42.243 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:50:42.246 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:50:42.249 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:50:42.252 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:50:43.659 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:50:43.713 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:50:43.788 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-24 23:51:16.796 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:51:51.374 -05:00 [DBG] Augmenting SignInContext
+2018-09-24 23:51:51.552 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AssertRequiredClaims(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 119
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AugmentPrincipal(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 80
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.<SignInAsync>d__7.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 23:52:46.256 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-24 23:52:46.403 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-24 23:52:46.422 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-24 23:52:46.427 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-24 23:52:46.431 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-24 23:52:46.437 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-24 23:52:55.202 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:53:00.344 -05:00 [DBG] Augmenting SignInContext
+2018-09-24 23:53:00.351 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AssertRequiredClaims(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 119
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AugmentPrincipal(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 80
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.<SignInAsync>d__7.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 23:53:16.394 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:53:19.880 -05:00 [DBG] Augmenting SignInContext
+2018-09-24 23:53:19.894 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AssertRequiredClaims(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 119
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AugmentPrincipal(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 80
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.<SignInAsync>d__7.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-24 23:54:29.863 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-24 23:55:27.321 -05:00 [DBG] Augmenting SignInContext
+2018-09-24 23:55:27.332 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AssertRequiredClaims(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 119
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AugmentPrincipal(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 80
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.<SignInAsync>d__7.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-25 00:07:04.576 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-25 00:07:04.707 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-25 00:07:04.715 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-25 00:07:04.717 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-25 00:07:04.719 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-25 00:07:04.722 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-25 00:07:15.499 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-25 00:07:26.683 -05:00 [DBG] Augmenting SignInContext
+2018-09-25 00:07:26.691 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AssertRequiredClaims(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 119
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AugmentPrincipal(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 80
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.<SignInAsync>d__7.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()

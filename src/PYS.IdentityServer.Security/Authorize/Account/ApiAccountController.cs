@@ -58,7 +58,7 @@ namespace PYS.IdentityServer.Security.Authorize.Account
             _emailSender = emailSender;
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginInputModel model, string button)
         {
             if (button != "login")

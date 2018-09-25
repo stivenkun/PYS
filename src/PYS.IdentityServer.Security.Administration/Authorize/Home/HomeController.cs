@@ -19,6 +19,7 @@ namespace IdentityServer4.Authorize.UI
             _interaction = interaction;
         }
         [Authorize(Policy = "AdministratorIS")]
+        //[Authorize]
         public IActionResult Index()
         {
             return View();
@@ -27,7 +28,7 @@ namespace IdentityServer4.Authorize.UI
         /// <summary>
         /// Shows the error page
         /// </summary>
-        [Authorize(Policy = "AdministratorIS")]
+        //[Authorize(Policy = "AdministratorIS")]
         public async Task<IActionResult> Error(string errorId)
         {
             var vm = new ErrorViewModel();

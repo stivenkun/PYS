@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace IdentityServer4.Authorize.UI
 {
     [SecurityHeaders]
-    [Authorize(Policy = "AdministratorIS")]
+    //[Authorize(Policy = "AdministratorIS")]
     public class DiagnosticsController : Controller
     {
         public async Task<IActionResult> Index()

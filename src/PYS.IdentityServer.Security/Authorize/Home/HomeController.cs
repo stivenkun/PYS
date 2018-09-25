@@ -3,6 +3,7 @@
 
 
 using IdentityServer4.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -17,7 +18,6 @@ namespace IdentityServer4.Authorize.UI
         {
             _interaction = interaction;
         }
-
         public IActionResult Index()
         {
             return View();

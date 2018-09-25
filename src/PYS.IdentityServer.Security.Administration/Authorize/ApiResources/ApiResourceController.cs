@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PYS.IdentityServer.Security.Administration.Authorize
 {
-    [Authorize(Policy = "AdministratorIS")]
+    //[Authorize(Policy = "AdministratorIS")]
     public class ApiResourceController : Controller
     {
 
@@ -34,8 +34,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize
         #region contructors
 
         public ApiResourceController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
+            //UserManager<ApplicationUser> userManager,
+            //SignInManager<ApplicationUser> signInManager,
             IIdentityServerInteractionService interaction,
             IClientStoreExtended clientStore,
             IAuthenticationSchemeProvider schemeProvider,
@@ -44,8 +44,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize
             ILogger<ApiResourceController> logger,
             IResourceStoreExtended resourceStore)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            //_userManager = userManager;
+            //_signInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;

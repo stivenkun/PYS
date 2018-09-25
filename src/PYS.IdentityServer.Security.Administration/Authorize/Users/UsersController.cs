@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace PYS.IdentityServer.Security.Administration.Authorize.Users
 {
-    [Authorize(Policy = "AdministratorIS")]
+    //[Authorize(Policy = "AdministratorIS")]
     public class UsersController : Controller
     {
 
