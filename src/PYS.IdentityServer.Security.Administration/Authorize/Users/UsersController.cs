@@ -12,6 +12,8 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using IdentityServerWithAspIdAndEF.Services;
 using Microsoft.AspNetCore.Authorization;
+using Repository.Interfaces;
+using AccessData;
 //using Repository.Interfaces;
 
 namespace PYS.IdentityServer.Security.Administration.Authorize.Users
@@ -29,7 +31,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         private readonly IEventService _events;
         private readonly ILogger _logger;
         private readonly IEmailSender _emailSender;
-        //IUserRepository _userRepository = null;
+        IUserRepository _userRepository = null;
         #endregion
 
         #region contructors
@@ -37,7 +39,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         public UsersController(
             //UserManager<ApplicationUser> userManager,
             //SignInManager<ApplicationUser> signInManager,
-            //IUserRepository userRepository,
+            IUserRepository userRepository,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
@@ -47,7 +49,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         {
             //_userManager = userManager;
             //_signInManager = signInManager;
-            //_userRepository = userRepository;
+            _userRepository = userRepository;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
@@ -63,12 +65,12 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         #region CRUD
 
         [HttpGet]
-        public ActionResult Index()
+        public async Task<IActionResult> Index()
         {
 
-            //var list = _userRepository.Entity.ToList();
-            List<ApplicationUser> users = _userManager.Users.ToList();
-            UsersViewModel uvm = new UsersViewModel() { Users = users };
+            var list = await _userRepository.FindAllAsync();
+            //List<ApplicationUser> users = _userManager.Users.ToList();
+            UsersViewModel uvm = new UsersViewModel() { Users = list.ToList() };
             return View(uvm);
         }
 

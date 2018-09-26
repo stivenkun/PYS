@@ -26,4 +26,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\AccessData\AccessData.csproj" />
+    <ProjectReference Include="..\..\Repository\Repository.csproj" />
+  </ItemGroup>
+
 </Project>

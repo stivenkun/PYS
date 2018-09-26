@@ -14,6 +14,9 @@ using IdentityServerWithAspIdAndEF.Services;
 using PYS.IdentityServer.Security.Administration.ConfigurationStore;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.IdentityModel.Tokens.Jwt;
+using AccessData;
+using Repository.Interfaces;
+using Repository.Repositories;
 //using Repository.Interfaces;
 //using Repository.Repository;
 
@@ -44,11 +47,11 @@ namespace IdentityServerWithAspIdAndEF
 
             services.AddDbContext<ConfigurationStoreContext>(options =>
                 options.UseSqlServer(connectionString));
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<AccessData.Datas.ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
-          
 
-            //services.AddScoped<IUserRepository, UserRepository>();
+
+            services.AddScoped<IUserRepository, UserRepository>();
             //services.AddScoped<UserManager>();
             services.AddMvc();
 

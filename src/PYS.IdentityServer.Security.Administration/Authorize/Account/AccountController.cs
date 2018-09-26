@@ -136,13 +136,13 @@ namespace IdentityServer4.Authorize.UI
 
         [HttpGet]
         
-        public ViewResult Users(UsersViewModel uvm)
-        {
+        //public ViewResult Users(UsersViewModel uvm)
+        //{
 
-            List<ApplicationUser> users = _userManager.Users.ToList();
-            uvm = new UsersViewModel() { Users = users };
-            return View(uvm);
-        }
+        //    List<ApplicationUser> users = _userManager.Users.ToList();
+        //    uvm = new UsersViewModel() { Users = users };
+        //    return View(uvm);
+        //}
 
         /// <summary>
         /// initiate roundtrip to external authentication provider

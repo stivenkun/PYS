@@ -10,7 +10,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
     public class UsersViewModel : Pagination
     {
         [Display (Name = "Usuarios")]
-        public List<ApplicationUser> Users { get; set; }
+        public List<Repository.Models.ApplicationUser> Users { get; set; }
 
     }
 }
