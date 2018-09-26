@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "609af0fbfcf8cf92b3b8ee9943b326219053a757"
+    "signature": "69d3ed1c3d3789567f0a989086d211178e9323c5"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v2.0": {
       "PYS.IdentityServer.Security/1.0.0": {
         "dependencies": {
+          "AspNetCore.RouteAnalyzer": "0.5.1",
           "IdentityServer4": "2.1.0",
+          "IdentityServer4.AccessTokenValidation": "2.6.0",
           "IdentityServer4.AspNetIdentity": "2.0.0",
           "IdentityServer4.EntityFramework": "2.1.0",
           "Microsoft.AspNetCore.All": "2.0.5",
@@ -42,6 +44,21 @@
         },
         "compile": {
           "PYS.IdentityServer.Security.dll": {}
+        }
+      },
+      "AspNetCore.RouteAnalyzer/0.5.1": {
+        "dependencies": {
+          "Microsoft.AspNetCore": "2.0.1",
+          "Microsoft.AspNetCore.Mvc": "2.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/AspNetCore.RouteAnalyzer.dll": {
+            "assemblyVersion": "0.5.0.0",
+            "fileVersion": "0.5.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.0/AspNetCore.RouteAnalyzer.dll": {}
         }
       },
       "AutoMapper/6.1.1": {
@@ -75,23 +92,41 @@
           "lib/netstandard1.3/AutoMapper.dll": {}
         }
       },
-      "IdentityModel/3.0.0": {
+      "IdentityModel/3.6.0": {
         "dependencies": {
-          "Newtonsoft.Json": "11.0.2"
+          "Newtonsoft.Json": "11.0.2",
+          "System.Text.Encodings.Web": "4.5.0"
         },
         "runtime": {
           "lib/netstandard2.0/IdentityModel.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
+            "assemblyVersion": "3.6.0.0",
+            "fileVersion": "3.6.0.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/IdentityModel.dll": {}
         }
       },
+      "IdentityModel.AspNetCore.OAuth2Introspection/3.3.0": {
+        "dependencies": {
+          "IdentityModel": "3.6.0",
+          "Microsoft.AspNetCore.Authentication": "2.1.2",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.1.1",
+          "Microsoft.Extensions.Caching.Memory": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityModel.AspNetCore.OAuth2Introspection.dll": {}
+        }
+      },
       "IdentityServer4/2.1.0": {
         "dependencies": {
-          "IdentityModel": "3.0.0",
+          "IdentityModel": "3.6.0",
           "Microsoft.AspNetCore.Authentication": "2.1.2",
           "Microsoft.AspNetCore.Authentication.Cookies": "2.1.2",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "2.1.2",
@@ -110,6 +145,22 @@
         },
         "compile": {
           "lib/netstandard2.0/IdentityServer4.dll": {}
+        }
+      },
+      "IdentityServer4.AccessTokenValidation/2.6.0": {
+        "dependencies": {
+          "IdentityModel.AspNetCore.OAuth2Introspection": "3.3.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "2.0.1",
+          "Microsoft.AspNetCore.Authorization": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.AccessTokenValidation.dll": {}
         }
       },
       "IdentityServer4.AspNetIdentity/2.0.0": {
@@ -5072,6 +5123,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AspNetCore.RouteAnalyzer/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-slxBURm28TfZPlVdpOLKTa9MrBVlMgxSb5aX8Sjko/vFVXm09UaS9VBYod0554vO4tzIOqhiUJQSabjTQ+4f6g==",
+      "path": "aspnetcore.routeanalyzer/0.5.1",
+      "hashPath": "aspnetcore.routeanalyzer.0.5.1.nupkg.sha512"
+    },
     "AutoMapper/6.1.1": {
       "type": "package",
       "serviceable": true,
@@ -5079,12 +5137,19 @@
       "path": "automapper/6.1.1",
       "hashPath": "automapper.6.1.1.nupkg.sha512"
     },
-    "IdentityModel/3.0.0": {
+    "IdentityModel/3.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-EKMOOUUqDzBR3goiA8eWJ1aQBz1AMfKVxxR7XnzAf5qq2k9vr6GT91SyHmzC14KINpNNJOrbmowXf5S04gQ0ZA==",
-      "path": "identitymodel/3.0.0",
-      "hashPath": "identitymodel.3.0.0.nupkg.sha512"
+      "sha512": "sha512-7398ntAQ/wlrZA9IjXA8ixrPIomBqnY3fp10FLle6WhhyWdZIEuhZEgvAfIEo+6zjktmJvhwBOAuQeNULNVyDQ==",
+      "path": "identitymodel/3.6.0",
+      "hashPath": "identitymodel.3.6.0.nupkg.sha512"
+    },
+    "IdentityModel.AspNetCore.OAuth2Introspection/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WQzG293uJ0ble6fVenVH/A4FM84vKXvq5MXG3nIv8TG+kkWKU75+z3d2sqFuWWB4ku3GB6AASjkw4xD4b0xYsw==",
+      "path": "identitymodel.aspnetcore.oauth2introspection/3.3.0",
+      "hashPath": "identitymodel.aspnetcore.oauth2introspection.3.3.0.nupkg.sha512"
     },
     "IdentityServer4/2.1.0": {
       "type": "package",
@@ -5092,6 +5157,13 @@
       "sha512": "sha512-NUFLWtdi0ds7dVc+kdzE7sm6emGCSCMuyFM50GfDGm7irv4OWgkbe0FL8gjzay3kZNO+Te8LCm7SCZoUob/o1w==",
       "path": "identityserver4/2.1.0",
       "hashPath": "identityserver4.2.1.0.nupkg.sha512"
+    },
+    "IdentityServer4.AccessTokenValidation/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cEY99gicdjVFOH1hJtiJr/2AcaymlwNNqR/a30P+0agPKZ/EebHxVAEqySvQddWDL6sl2Tc1dUQsK8yqP2lj5Q==",
+      "path": "identityserver4.accesstokenvalidation/2.6.0",
+      "hashPath": "identityserver4.accesstokenvalidation.2.6.0.nupkg.sha512"
     },
     "IdentityServer4.AspNetIdentity/2.0.0": {
       "type": "package",

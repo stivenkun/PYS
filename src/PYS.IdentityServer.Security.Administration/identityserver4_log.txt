@@ -12698,3 +12698,44 @@ System.InvalidOperationException: sub claim is missing
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-25 00:42:46.001 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-25 00:42:46.145 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-25 00:42:46.150 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-25 00:42:46.152 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-25 00:42:46.154 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-25 00:42:46.155 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-25 00:42:53.286 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-25 00:47:41.203 -05:00 [DBG] Augmenting SignInContext
+2018-09-25 00:47:41.300 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: sub claim is missing
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AssertRequiredClaims(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 119
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.AugmentPrincipal(ClaimsPrincipal principal) in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 80
+   at IdentityServer4.Hosting.IdentityServerAuthenticationService.<SignInAsync>d__7.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerAuthenticationService.cs:line 68
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
