@@ -1,6 +1,0 @@
-D:\Backup\PYS.CO.IdentityServer-master\Repositories\bin\Debug\netstandard2.0\Repositories.deps.json
-D:\Backup\PYS.CO.IdentityServer-master\Repositories\bin\Debug\netstandard2.0\Repositories.dll
-D:\Backup\PYS.CO.IdentityServer-master\Repositories\obj\Debug\netstandard2.0\Repositories.csprojAssemblyReference.cache
-D:\Backup\PYS.CO.IdentityServer-master\Repositories\obj\Debug\netstandard2.0\Repositories.csproj.CoreCompileInputs.cache
-D:\Backup\PYS.CO.IdentityServer-master\Repositories\obj\Debug\netstandard2.0\Repositories.AssemblyInfoInputs.cache
-D:\Backup\PYS.CO.IdentityServer-master\Repositories\obj\Debug\netstandard2.0\Repositories.AssemblyInfo.cs
