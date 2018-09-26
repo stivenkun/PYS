@@ -34,8 +34,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         #region contructors
 
         public UsersController(
-            //UserManager<ApplicationUser> userManager,
-            //SignInManager<ApplicationUser> signInManager,
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
@@ -43,8 +43,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
             IEmailSender emailSender,
             ILogger<UsersController> logger)
         {
-            //_userManager = userManager;
-            //_signInManager = signInManager;
+            _userManager = userManager;
+            _signInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
@@ -58,6 +58,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
 
 
         #region CRUD
+
+        [HttpGet]
         public ActionResult Index()
         {
             List<ApplicationUser> users = _userManager.Users.ToList();
