@@ -13743,11 +13743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Empresa\\PYS_2\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "projectUniqueName": "D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
       "projectName": "PYS.IdentityServer.Security",
-      "projectPath": "D:\\Documentos\\Empresa\\PYS_2\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "projectPath": "D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
       "packagesPath": "C:\\Users\\DELL 7000\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Empresa\\PYS_2\\PYS\\src\\PYS.IdentityServer.Security\\obj\\",
+      "outputPath": "D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13844,5 +13844,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché D:\\Documentos\\Empresa\\PYS\\src\\PYS.IdentityServer.Security\\obj\\PYS.IdentityServer.Security.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
