@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PYS.IdentityServer.Security
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PYS.IdentityServer.Security.Administration", "src\PYS.IdentityServer.Security.Administration\PYS.IdentityServer.Security.Administration.csproj", "{697ED6C8-08FC-4ECC-91BA-40175F5BD943}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{FBC8EA1B-B110-4646-BC46-268AB9BE3FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{697ED6C8-08FC-4ECC-91BA-40175F5BD943}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{697ED6C8-08FC-4ECC-91BA-40175F5BD943}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{697ED6C8-08FC-4ECC-91BA-40175F5BD943}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC8EA1B-B110-4646-BC46-268AB9BE3FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC8EA1B-B110-4646-BC46-268AB9BE3FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC8EA1B-B110-4646-BC46-268AB9BE3FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC8EA1B-B110-4646-BC46-268AB9BE3FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

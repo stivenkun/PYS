@@ -13743,11 +13743,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Backup\\PYS.CO.IdentityServer-master\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "projectUniqueName": "D:\\Backup\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
       "projectName": "PYS.IdentityServer.Security",
-      "projectPath": "D:\\Backup\\PYS.CO.IdentityServer-master\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "projectPath": "D:\\Backup\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
       "packagesPath": "C:\\Users\\tulio jimenez\\.nuget\\packages\\",
-      "outputPath": "D:\\Backup\\PYS.CO.IdentityServer-master\\src\\PYS.IdentityServer.Security\\obj\\",
+      "outputPath": "D:\\Backup\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
