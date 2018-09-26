@@ -13,6 +13,7 @@ using IdentityServerWithAspIdAndEF.Profiles;
 using IdentityServerWithAspIdAndEF.Services;
 using PYS.IdentityServer.Security.Administration.ConfigurationStore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace IdentityServerWithAspIdAndEF
 {
@@ -46,7 +47,7 @@ namespace IdentityServerWithAspIdAndEF
 
             services.AddMvc();
 
-
+            JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
             services.Configure<IISOptions>(iis =>
             {

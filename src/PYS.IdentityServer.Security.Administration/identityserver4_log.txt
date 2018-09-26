@@ -12739,3 +12739,23 @@ System.InvalidOperationException: sub claim is missing
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-09-26 08:30:01.425 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-26 08:30:01.619 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-26 08:30:01.635 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-26 08:30:01.638 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-26 08:30:01.645 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-26 08:30:01.651 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-26 08:30:03.490 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 08:30:03.527 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 08:30:03.573 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 08:30:13.173 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-26 08:30:34.091 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-26 08:30:34.231 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-26 08:30:34.245 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-26 08:30:34.249 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-26 08:30:34.254 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-26 08:30:34.259 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-26 08:30:35.423 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 08:30:35.467 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 08:30:35.507 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 08:30:42.283 -05:00 [INF] AuthenticationScheme: oidc was challenged.
