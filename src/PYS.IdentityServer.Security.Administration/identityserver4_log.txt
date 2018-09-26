@@ -12759,3 +12759,115 @@ System.InvalidOperationException: sub claim is missing
 2018-09-26 08:30:35.467 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
 2018-09-26 08:30:35.507 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
 2018-09-26 08:30:42.283 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-26 08:39:19.268 -05:00 [FTL] Application startup exception
+System.IO.FileNotFoundException: Could not load file or assembly 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'. El sistema no puede encontrar el archivo especificado.
+File name: 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'
+   at IdentityServerWithAspIdAndEF.Startup.ConfigureServices(IServiceCollection services)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+
+
+2018-09-26 09:10:34.913 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-26 09:10:35.126 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-26 09:10:35.135 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-26 09:10:35.139 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-26 09:10:35.143 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-26 09:10:35.151 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-26 09:10:37.303 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:10:37.356 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:10:37.425 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:10:45.623 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-26 09:27:31.605 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-09-26 09:27:31.774 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-09-26 09:27:31.790 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-09-26 09:27:31.793 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-09-26 09:27:31.796 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-09-26 09:27:31.803 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-09-26 09:27:32.920 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:27:32.963 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:27:33.012 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:27:38.546 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-09-26 09:29:30.922 -05:00 [DBG] Augmenting SignInContext
+2018-09-26 09:29:30.929 -05:00 [DBG] Adding amr claim with value: pwd
+2018-09-26 09:29:30.933 -05:00 [DBG] Adding auth_time claim with value: 1537972170
+2018-09-26 09:29:30.945 -05:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2018-09-26 09:29:30.959 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-09-26 09:29:30.984 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:30.989 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:30.994 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:35.487 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:35.493 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:53.850 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:53.854 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:53.863 -05:00 [INF] AuthenticationScheme: Cookies was successfully authenticated.
+2018-09-26 09:29:53.957 -05:00 [ERR] An unhandled exception has occurred while executing the request
+System.InvalidOperationException: Unable to resolve service for type 'System.Data.Entity.DbContext' while attempting to activate 'Repository.Repository.UserRepository'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type serviceType, Type implementationType, ISet`1 callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(Type serviceType, Type implementationType, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(Type serviceType, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(Type serviceType, ISet`1 callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType, ServiceProvider serviceProvider)
+   at System.Collections.Concurrent.ConcurrentDictionaryExtensions.GetOrAdd[TKey,TValue,TArg](ConcurrentDictionary`2 dictionary, TKey key, Func`3 valueFactory, TArg arg)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()

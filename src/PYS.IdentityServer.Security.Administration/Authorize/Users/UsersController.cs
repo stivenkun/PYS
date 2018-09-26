@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using IdentityServerWithAspIdAndEF.Services;
 using Microsoft.AspNetCore.Authorization;
+//using Repository.Interfaces;
 
 namespace PYS.IdentityServer.Security.Administration.Authorize.Users
 {
@@ -28,14 +29,15 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         private readonly IEventService _events;
         private readonly ILogger _logger;
         private readonly IEmailSender _emailSender;
-
+        //IUserRepository _userRepository = null;
         #endregion
 
         #region contructors
 
         public UsersController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
+            //UserManager<ApplicationUser> userManager,
+            //SignInManager<ApplicationUser> signInManager,
+            //IUserRepository userRepository,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
@@ -43,8 +45,9 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
             IEmailSender emailSender,
             ILogger<UsersController> logger)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            //_userManager = userManager;
+            //_signInManager = signInManager;
+            //_userRepository = userRepository;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
@@ -62,6 +65,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
         [HttpGet]
         public ActionResult Index()
         {
+
+            //var list = _userRepository.Entity.ToList();
             List<ApplicationUser> users = _userManager.Users.ToList();
             UsersViewModel uvm = new UsersViewModel() { Users = users };
             return View(uvm);
