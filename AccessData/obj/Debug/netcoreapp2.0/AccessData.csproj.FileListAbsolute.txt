@@ -7,3 +7,12 @@ D:\Backup\PYS\PYS\AccessData\bin\Debug\netcoreapp2.0\AccessData.pdb
 D:\Backup\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.dll
 D:\Backup\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.pdb
 D:\Backup\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.csprojAssemblyReference.cache
+D:\Documentos\Empresa\PYS\PYS\AccessData\bin\Debug\netcoreapp2.0\AccessData.deps.json
+D:\Documentos\Empresa\PYS\PYS\AccessData\bin\Debug\netcoreapp2.0\AccessData.dll
+D:\Documentos\Empresa\PYS\PYS\AccessData\bin\Debug\netcoreapp2.0\AccessData.pdb
+D:\Documentos\Empresa\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.csprojAssemblyReference.cache
+D:\Documentos\Empresa\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.csproj.CoreCompileInputs.cache
+D:\Documentos\Empresa\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.AssemblyInfoInputs.cache
+D:\Documentos\Empresa\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.AssemblyInfo.cs
+D:\Documentos\Empresa\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.dll
+D:\Documentos\Empresa\PYS\PYS\AccessData\obj\Debug\netcoreapp2.0\AccessData.pdb
