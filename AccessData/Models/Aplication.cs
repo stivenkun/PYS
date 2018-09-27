@@ -22,5 +22,7 @@ namespace AccessData.Models
         public bool IsActive { set; get; }
 
         public string IconSrc { set; get; }
+
+        public virtual List<AppClaims> AppClaims { set; get; }
     }
 }
