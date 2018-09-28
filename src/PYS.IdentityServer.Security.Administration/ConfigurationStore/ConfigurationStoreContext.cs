@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AccessData.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace PYS.IdentityServer.Security.Administration.ConfigurationStore
 {
@@ -9,14 +10,17 @@ namespace PYS.IdentityServer.Security.Administration.ConfigurationStore
 
         public DbSet<ClientEntity> Clients { get; set; }
         public DbSet<ApiResourceEntity> ApiResources { get; set; }
-        public DbSet<IdentityResourceEntity> IdentityResources { get; set; }
-
+        public DbSet<IdentityResourceEntity> IdentityResources { get; set; }        
+        public DbSet<Aplication> Applications { set; get; }
+        public DbSet<AppClaims> AppClaims { set; get; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<ClientEntity>().HasKey(m => m.ClientId);
             builder.Entity<ApiResourceEntity>().HasKey(m => m.Name);
             builder.Entity<IdentityResourceEntity>().HasKey(m => m.Name);
+            builder.Entity<Aplication>().HasKey(m => m.Id);
+            builder.Entity<AppClaims>().HasKey(m => m.Id);
             base.OnModelCreating(builder);
         }
     }

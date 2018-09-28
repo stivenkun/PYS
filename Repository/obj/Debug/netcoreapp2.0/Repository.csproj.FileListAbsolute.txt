@@ -22,3 +22,15 @@ D:\Documentos\Empresa\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.Asse
 D:\Documentos\Empresa\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.csproj.CopyComplete
 D:\Documentos\Empresa\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.dll
 D:\Documentos\Empresa\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.pdb
+D:\Backup\PYS\PYS\PYS\Repository\bin\Debug\netcoreapp2.0\Repository.deps.json
+D:\Backup\PYS\PYS\PYS\Repository\bin\Debug\netcoreapp2.0\Repository.dll
+D:\Backup\PYS\PYS\PYS\Repository\bin\Debug\netcoreapp2.0\Repository.pdb
+D:\Backup\PYS\PYS\PYS\Repository\bin\Debug\netcoreapp2.0\AccessData.dll
+D:\Backup\PYS\PYS\PYS\Repository\bin\Debug\netcoreapp2.0\AccessData.pdb
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.csprojAssemblyReference.cache
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.csproj.CoreCompileInputs.cache
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.AssemblyInfoInputs.cache
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.AssemblyInfo.cs
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.csproj.CopyComplete
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.dll
+D:\Backup\PYS\PYS\PYS\Repository\obj\Debug\netcoreapp2.0\Repository.pdb
