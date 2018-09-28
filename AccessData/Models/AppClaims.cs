@@ -20,7 +20,7 @@ namespace AccessData.Models
         public string Value { set; get; }
 
         [ForeignKey("Aplication")]
-        public int StudentId { set; get; }
+        public int ApplicationId { set; get; }
 
         public virtual Aplication Aplication { set; get; }
     }

@@ -1,10 +1,11 @@
-﻿using System;
+﻿using AccessData.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Repository.Interfaces
 {
-    interface IApplicationRepository
+    public interface IApplicationRepository : IGenericRepository<Aplication>
     {
     }
 }
