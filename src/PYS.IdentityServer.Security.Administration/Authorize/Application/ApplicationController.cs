@@ -61,7 +61,11 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
             //UsersViewModel uvm = new UsersViewModel() { Users = list.ToList() };
             return View(list);
         }
-
+        [HttpGet]
+        public ActionResult Register()
+        {
+            return View();
+        }
         public IActionResult Create(Aplication appModel)
         {
             return View();
