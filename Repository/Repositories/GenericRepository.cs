@@ -14,9 +14,9 @@ namespace Repository.Repositories
     public class GenericRepository<T> : IGenericRepository<T>
         where T : class
     {
-        private readonly ApplicationDbContext _dbContext;
+        private readonly DbContext _dbContext;
 
-        public GenericRepository(ApplicationDbContext dbContext)
+        public GenericRepository(DbContext dbContext)
         {
             _dbContext = dbContext;
         }
