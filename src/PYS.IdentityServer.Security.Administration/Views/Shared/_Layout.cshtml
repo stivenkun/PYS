@@ -51,20 +51,20 @@
                         <ul>
                             <li><a asp-action="Index" asp-controller="ApiResource">Listar</a></li>
                             @*<li class='has-sub'>
-                                    <a href='#'><span>Listar</span></a>
-                                    <ul>
-                                        <li><a href='#'><span>Sub Product</span></a></li>
-                                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                    <a href='#'><span>Listar</span></a>
+                    <ul>
+                        <li><a href='#'><span>Sub Product</span></a></li>
+                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
 
-                                    </ul>
-                                </li>*@
+                    </ul>
+                </li>*@
                             @*<li class='has-sub'>
-                                    <a href='#'><span>Crear</span></a>
-                                    <ul>
-                                        <li><a href='#'><span>Sub Product</span></a></li>
-                                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
-                                    </ul>
-                                </li>*@
+                    <a href='#'><span>Crear</span></a>
+                    <ul>
+                        <li><a href='#'><span>Sub Product</span></a></li>
+                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                    </ul>
+                </li>*@
                             <li><a asp-action="Create" asp-controller="ApiResource">Crear</a></li>
                         </ul>
 
@@ -81,12 +81,18 @@
                             <li><a asp-action="Index" asp-controller="Client">Listar</a></li>
                         </ul>
                     </li>
+                    <li>
+                        <a href='#'><span>Aplicaciones</span></a>
+                        <ul>
+                            <li><a asp-action="Index" asp-controller="Application">Listar</a></li>
+                        </ul>
+                    </li>
                     @*<li>
-                            <a href='#'><span>Recursos</span></a>
-                            <ul>
-                                <li><a asp-action="Index" asp-controller="ApiResource">API</a></li>
-                            </ul>
-                        </li>*@
+            <a href='#'><span>Recursos</span></a>
+            <ul>
+                <li><a asp-action="Index" asp-controller="ApiResource">API</a></li>
+            </ul>
+        </li>*@
                     <li><a href='#'><span>About</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
                     <li><a asp-action="Logout" asp-controller="Account">Salir</a></li>

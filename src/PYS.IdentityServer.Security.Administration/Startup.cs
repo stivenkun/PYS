@@ -45,13 +45,16 @@ namespace IdentityServerWithAspIdAndEF
             string connectionString = Configuration.GetConnectionString("IdentityServerConnection");
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
-            services.AddDbContext<ConfigurationStoreContext>(options =>
+            services.AddDbContext<AccessData.DataStore.ConfigurationStoreContext>(options =>
                 options.UseSqlServer(connectionString));
             services.AddDbContext<AccessData.Datas.ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IApplicationRepository, ApplicationRepository>();
+
+    
             //services.AddScoped<UserManager>();
             services.AddMvc();
 
