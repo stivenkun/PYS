@@ -14980,3 +14980,9 @@ System.IO.IOException: The process cannot access the file 'D:\Backup\PYS\PYS\PYS
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-02 17:26:44.429 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-02 17:26:44.593 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-02 17:26:44.607 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-02 17:26:44.615 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-02 17:26:44.621 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-02 17:26:44.626 -05:00 [DBG] Using oidc as default scheme for forbid

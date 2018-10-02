@@ -75,5 +75,12 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         { 
             return  PartialView();
         }
+
+        [HttpPost]
+        public ActionResult AddAppClaim(Aplication app)
+        {
+            return View();
+
+        }
     }
 }

@@ -5,6 +5,17 @@
         $("#appClaimForm").submit(function (e) {
             e.preventDefault();
             var data = $("#appClaimForm").serialize();
+            $.ajax({
+                url:@Url.Action("AddAppClaim"),
+                data: data,
+                type:"POST",
+                success: function () {
+
+
+
+                }
+
+            });
         });
 
     });
