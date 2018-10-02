@@ -1,10 +1,19 @@
 ﻿@model AccessData.Models.AppClaims
 
+<script>
+    $(document).ready(function () {
+        $("#appClaimForm").submit(function (e) {
+            e.preventDefault();
+            var data = $("#appClaimForm").serialize();
+        });
 
+    });
+
+</script>
 <hr />
 <div class="row">
     <div class="col-md-4" style="margin-left:30%">
-        <form asp-action="AddAppClaim">
+        <form id="appClaimForm" asp-action="AddAppClaim">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label">Nombre de claim</label>
@@ -22,15 +31,15 @@
                 <span asp-validation-for="Value" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-default customButton" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
+@*<div>
     <a asp-action="Index">Back to List</a>
-</div>
+</div>*@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
