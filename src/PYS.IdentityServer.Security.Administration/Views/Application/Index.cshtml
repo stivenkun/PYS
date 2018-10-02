@@ -1,15 +1,15 @@
 ﻿@model IEnumerable<AccessData.Models.Aplication>
 
-    @{
+@{
     ViewData["Title"] = "Index";
-    }
+}
 
-    <h2>Index</h2>
+<div>
+    <p>
+        <a asp-action="Register" asp-controller="Application"><img src="~/if_plus-24_103172.png" width="30" height="30" alt="agregar" title="agregar"/></a>
+    </p>
 
     <div style="background-color:aliceblue">
-        <p>
-            <a asp-action="Register" asp-controller="Application"><img src="~/if_plus-24_103172.png" width="30" height="30" /></a>
-        </p>
         <table class="table table customTable">
             <thead>
                 <tr>
@@ -35,33 +35,35 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var item in Model) {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Id)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Url)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IsActive)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.IconSrc)
-                    </td>
-                    <td>
-                        @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-                    </td>
-                </tr>
-}
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Url)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IsActive)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IconSrc)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                        </td>
+                    </tr>
+                }
             </tbody>
         </table>
     </div>
+</div>
