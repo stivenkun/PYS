@@ -116,7 +116,7 @@
             afterRender: function () { }
 
         });
-        $("#btnModal").click(function () {      
+        $("#btnModal").click(function () {
             //$("#openModal").modal('open');
             $('#openModal').iziModal('open');
         });
@@ -124,7 +124,7 @@
 
 
     });
-    
+
 
 </script>
 <div class="row text-center">
@@ -150,23 +150,15 @@
                 <input asp-for="Application.Description" class="form-control" />
                 <span asp-validation-for="Application.Description" class="text-danger"></span>
             </div>
-            @*<div class="form-group">
-            <label asp-for="Application.IsActive" class="control-label">Activo</label>
-            <input asp-for="Application.IsActive" class="form-control" />
-            <span asp-validation-for="Application.IsActive" class="text-danger"></span>
-        </div>*@
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
-            @*<div class="form-group">
-            <div class="checkbox">
-                <label>
-                    Activo
-                    <input asp-for="IsActive" />
+   
+            <div class="form-group">
+                <label asp-for="Application.IsActive" class="control-label">Activar</label><br />
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
                 </label>
             </div>
-        </div>*@
+
             <div class="form-group">
                 <label asp-for="Application.IconSrc" class="control-label">Imagen</label>
                 <input type="file" name="file" />
@@ -181,11 +173,7 @@
 
             </div>
 
-            <div class="form-group">
-                <label asp-for="Application.IconSrc" class="control-label">Agregar claim</label>
-                @*<input type="button" class="customButton" id="btnModal" value="CLAIM" />*@
-                @*<a href="#openModal">Open Modal</a>*@
-            </div>
+ 
 
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default customButton" />
@@ -197,14 +185,14 @@
 
 
 <div id="openModal" class="iziModal">
-   
+
     <div class="iziModal-header" style="background-color:#1C2833">
         <i class="iziModal-header-icon icon-stack"></i>
         <h2 class="iziModal-header-title">Agregar Datos claim a la aplicación</h2>
         <a href="javascript:void(0)" class="iziModal-button-close" data-izimodal-close=""></a>
     </div>
     <div style="text-align:center" class="iziModal-content">
-        @*<a href="#close" title="Close" class="close">X</a>*@
+        @*<a href="#close" title="Close" class="close">X</a>*@<a href="#close" title="Close" class="close"></a>
         @{Html.RenderPartial("AddAppClaim", new AccessData.Models.AppClaims());}
     </div>
 </div>
