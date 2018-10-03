@@ -15,6 +15,8 @@ using Microsoft.AspNetCore.Authorization;
 using Repository.Interfaces;
 using AccessData;
 using AccessData.Models;
+using PYS.IdentityServer.Security.Administration.Utilities;
+using PYS.IdentityServer.Security.Administration.Models;
 //using Repository.Interfaces;
 namespace PYS.IdentityServer.Security.Administration.Authorize.Application
 {
@@ -64,7 +66,10 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         [HttpGet]
         public ActionResult Register()
         {
-            return View();
+            return View(new ApplicationViewModel
+            {
+                AppClaims = new List<AppClaims>() 
+            });
         }
         public IActionResult Create(Aplication appModel)
         {
@@ -76,10 +81,31 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
             return  PartialView();
         }
 
-        [HttpPost]
-        public ActionResult AddAppClaim(Aplication app)
+        [HttpGet]
+        public ActionResult AppClaimList()
         {
-            return View();
+            var appList = HttpContext.Session.GetObjectFromJson<List<AppClaims>>("app");
+            if (appList == null)
+                appList = new List<AppClaims>();
+            return PartialView(appList);
+        }
+
+        [HttpPost]
+        public ActionResult AddAppClaim(AppClaims app)
+        {
+            var apoList = HttpContext.Session.GetObjectFromJson<List<AppClaims>>("app");
+            if (apoList != null)
+            {
+                apoList.Add(app);
+            }
+            else
+            {
+                List<AppClaims> aplicationList = new List<AppClaims>();
+                aplicationList.Add(app);
+                HttpContext.Session.SetObjectAsJson("app", aplicationList);
+            }
+
+            return Json(ServiceResponse.GetSuccessfulResponse());
 
         }
     }

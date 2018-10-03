@@ -1,4 +1,4 @@
-﻿@model AccessData.Models.Aplication
+﻿@model PYS.IdentityServer.Security.Administration.Models.ApplicationViewModel
 
 @{
     ViewData["Title"] = "Register";
@@ -116,11 +116,9 @@
             afterRender: function () { }
 
         });
-        $("#btnModal").click(function () {
-         
+        $("#btnModal").click(function () {      
             //$("#openModal").modal('open');
             $('#openModal').iziModal('open');
-
         });
 
 
@@ -138,39 +136,57 @@
         <form asp-action="Register">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Name" class="control-label">Nombre</label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
+                <label asp-for="Application.Name" class="control-label">Nombre</label>
+                <input asp-for="Application.Name" class="form-control" />
+                <span asp-validation-for="Application.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Url" class="control-label"></label>
-                <input asp-for="Url" class="form-control" />
-                <span asp-validation-for="Url" class="text-danger"></span>
+                <label asp-for="Application.Url" class="control-label"></label>
+                <input asp-for="Application.Url" class="form-control" />
+                <span asp-validation-for="Application.Url" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Description" class="control-label">Descripción</label>
-                <input asp-for="Description" class="form-control" />
-                <span asp-validation-for="Description" class="text-danger"></span>
+                <label asp-for="Application.Description" class="control-label">Descripción</label>
+                <input asp-for="Application.Description" class="form-control" />
+                <span asp-validation-for="Application.Description" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <div class="checkbox">
-                    <label>
-                        Activo
-                        <input asp-for="IsActive" />
-                    </label>
-                </div>
+            @*<div class="form-group">
+            <label asp-for="Application.IsActive" class="control-label">Activo</label>
+            <input asp-for="Application.IsActive" class="form-control" />
+            <span asp-validation-for="Application.IsActive" class="text-danger"></span>
+        </div>*@
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+            @*<div class="form-group">
+            <div class="checkbox">
+                <label>
+                    Activo
+                    <input asp-for="IsActive" />
+                </label>
             </div>
+        </div>*@
             <div class="form-group">
-                <label asp-for="IconSrc" class="control-label">Imagen</label>
-                <input  type="file" name="file" />
-                <span asp-validation-for="IconSrc" class="text-danger"></span>
+                <label asp-for="Application.IconSrc" class="control-label">Imagen</label>
+                <input type="file" name="file" />
+                <span asp-validation-for="Application.IconSrc" class="text-danger"></span>
             </div>
+
+            <div class="form-group" id="appClaimsContent">
+                <p>
+                    <a id="btnModal"> <img src="~/if_plus-24_103172.png" width="15" height="15" alt="agregar" title="agregar" /></a>
+                </p>
+                @{Html.RenderPartial("AppClaimList", Model.AppClaims);}
+
+            </div>
+
             <div class="form-group">
-                <label asp-for="IconSrc" class="control-label">Agregar claim</label>
-                <input type="button" class="customButton" id="btnModal" value="CLAIM" />
+                <label asp-for="Application.IconSrc" class="control-label">Agregar claim</label>
+                @*<input type="button" class="customButton" id="btnModal" value="CLAIM" />*@
                 @*<a href="#openModal">Open Modal</a>*@
             </div>
-            
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default customButton" />
             </div>
@@ -189,7 +205,7 @@
     </div>
     <div style="text-align:center" class="iziModal-content">
         @*<a href="#close" title="Close" class="close">X</a>*@
-        @{Html.RenderPartial("AddAppClaim");}
+        @{Html.RenderPartial("AddAppClaim", new AccessData.Models.AppClaims());}
     </div>
 </div>
 

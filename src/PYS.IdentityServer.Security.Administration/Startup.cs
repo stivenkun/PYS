@@ -54,10 +54,12 @@ namespace IdentityServerWithAspIdAndEF
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IApplicationRepository, ApplicationRepository>();
 
-    
-            //services.AddScoped<UserManager>();
-            services.AddMvc();
 
+            //services.AddScoped<UserManager>();
+            services.AddSession();
+            services.AddMvc();
+   
+  
             JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
             services.Configure<IISOptions>(iis =>
@@ -135,7 +137,9 @@ namespace IdentityServerWithAspIdAndEF
             app.UseAuthentication();
             app.UseStaticFiles();
             app.UseIdentityServer();
+            app.UseSession();
             app.UseMvcWithDefaultRoute();
+            app.UseMvc();
         }
     }
 }

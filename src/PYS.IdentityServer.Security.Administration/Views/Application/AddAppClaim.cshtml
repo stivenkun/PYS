@@ -6,12 +6,15 @@
             e.preventDefault();
             var data = $("#appClaimForm").serialize();
             $.ajax({
-                url:@Url.Action("AddAppClaim"),
+                url:'@Url.Action("AddAppClaim")',
                 data: data,
                 type:"POST",
-                success: function () {
-
-
+                success: function (response) {
+                    debugger;
+                    if (response.responseCode == 0) {
+                        alert("Registro agregado")                            
+                        $('#appClaimsContent').load('/Application/AppClaimList');
+                    }
 
                 }
 
@@ -49,9 +52,9 @@
 </div>
 
 @*<div>
-    <a asp-action="Index">Back to List</a>
-</div>*@
+        <a asp-action="Index">Back to List</a>
+    </div>*@
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+@*@section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }*@
