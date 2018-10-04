@@ -33,11 +33,13 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         private readonly ILogger _logger;
         private readonly IEmailSender _emailSender;
         IApplicationRepository _applicationRepository = null;
+        IAppClaimRepository _appClaimRepository = null;
         #endregion
         public ApplicationController(
         //UserManager<ApplicationUser> userManager,
         //SignInManager<ApplicationUser> signInManager,
         IApplicationRepository applicationRepository,
+        IAppClaimRepository appClaimRepository,
         IIdentityServerInteractionService interaction,
         IClientStore clientStore,
         IAuthenticationSchemeProvider schemeProvider,
@@ -48,6 +50,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
             //_userManager = userManager;
             //_signInManager = signInManager;
             _applicationRepository = applicationRepository;
+            _appClaimRepository = appClaimRepository;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
@@ -75,6 +78,30 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         }
         public IActionResult Create(Aplication appModel)
         {
+            try
+            {
+                _applicationRepository.Create(appModel);
+                _applicationRepository.SaveAsync().GetAwaiter().GetResult();
+                if (appModel.Id != 0)
+                {
+                    var appList = HttpContext.Session.GetObjectFromJson<List<AppClaims>>("app");
+                    if(appList != null)
+                    {
+                        appList.ForEach(m =>
+                        {
+                            m.ApplicationId = appModel.Id;
+                            _appClaimRepository.Create(m);
+                            _appClaimRepository.SaveAsync().GetAwaiter().GetResult();
+                        });                                                             
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                return Json(ServiceResponse.GetErrorResponse(ex.ToString(), null));
+            }
+            
+
             return View();
 
         }

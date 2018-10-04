@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Repository.Interfaces
 {
-    public interface IAppClaim : IGenericRepository<AppClaims>
+    public interface IAppClaimRepository : IGenericRepository<AppClaims>
     {
     }
 }

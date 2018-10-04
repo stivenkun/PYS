@@ -32,8 +32,8 @@
     <ProjectReference Include="..\..\Repository\Repository.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <Folder Include="Models\ApplicationViewModel\" />
-  </ItemGroup>
+  </ItemGroup>-->
 
 </Project>

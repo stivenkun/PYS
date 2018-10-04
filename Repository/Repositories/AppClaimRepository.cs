@@ -1,10 +1,17 @@
-﻿using System;
+﻿using AccessData.DataStore;
+using AccessData.Models;
+using Repository.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Repository.Repositories
 {
-    class AppClaimRepository
+    public class AppClaimRepository : GenericRepository<AppClaims>, IAppClaimRepository
     {
+        public AppClaimRepository(ConfigurationStoreContext context) : base(context)
+        {
+
+        }
     }
 }
