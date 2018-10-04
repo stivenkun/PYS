@@ -3,7 +3,29 @@
 <script>
     $(document).ready(function () {
         $("#appClaimForm").submit(function (e) {
+            debugger;
+            //$.preloader.start();
             e.preventDefault();
+            //$.preloader.start();
+
+            1
+            $('body').loadingModal({
+                
+                  position: 'auto',
+                
+                  text: '',
+                
+                  color: '#fff',
+                
+                  opacity: '0.7',
+                
+                  backgroundColor: 'rgb(0,0,0)',
+                
+                  animation: 'doubleBounce'
+
+            });
+
+
             var data = $("#appClaimForm").serialize();
             $.ajax({
                 url:'@Url.Action("AddAppClaim")',
@@ -12,7 +34,7 @@
                 success: function (response) {
                     debugger;
                     if (response.responseCode == 0) {
-                        alert("Registro agregado")                            
+                        //alert("Registro agregado")                            
                         $('#appClaimsContent').load('/Application/AppClaimList');
                     }
 
@@ -20,6 +42,13 @@
 
             });
             e.stopImmediatePropagation();
+            // hide the loading modal
+            
+            $('body').loadingModal('hide');         
+            // destroy the plugin          
+            $('body').loadingModal('destroy');
+
+
         });
 
     });

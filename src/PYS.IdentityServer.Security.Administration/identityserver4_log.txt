@@ -17065,3 +17065,130 @@ System.InvalidOperationException: The model item passed into the ViewDataDiction
 2018-10-03 14:16:39.740 -05:00 [DBG] Using Cookies as default scheme for sign-out
 2018-10-03 14:16:39.750 -05:00 [DBG] Using oidc as default scheme for challenge
 2018-10-03 14:16:39.755 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-03 20:41:54.602 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-03 20:41:54.663 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-03 20:41:54.670 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-03 20:41:54.672 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-03 20:41:54.674 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-03 20:41:54.676 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-03 20:42:06.968 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-03 20:42:07.027 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-03 20:42:07.032 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-03 20:42:07.034 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-03 20:42:07.039 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-03 20:42:07.043 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-03 20:50:02.839 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-03 20:50:02.934 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-03 20:50:02.950 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-03 20:50:02.953 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-03 20:50:02.956 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-03 20:50:02.958 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-03 21:02:40.981 -05:00 [WRN] Connection processing ended abnormally.
+Microsoft.AspNetCore.Connections.ConnectionAbortedException: The connection was aborted
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.IO.Pipelines.PipeCompletion.ThrowLatchedException()
+   at System.IO.Pipelines.Pipe.GetReadResult(ReadResult& result)
+   at System.IO.Pipelines.Pipe.GetReadAsyncResult()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequests>d__188`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.<ProcessRequestsAsync>d__187`1.MoveNext()
+2018-10-03 21:09:48.007 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.Clients.ClientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.<Invoke>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Session.SessionMiddleware.<Invoke>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-03 21:26:38.997 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-03 21:26:39.090 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-03 21:26:39.095 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-03 21:26:39.097 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-03 21:26:39.100 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-03 21:26:39.105 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-03 21:50:57.555 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-03 21:50:57.818 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-03 21:50:57.830 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-03 21:50:57.836 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-03 21:50:57.843 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-03 21:50:57.846 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-03 22:39:18.603 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-03 22:39:18.749 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-03 22:39:18.761 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-03 22:39:18.764 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-03 22:39:18.766 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-03 22:39:18.770 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-04 02:25:51.373 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-04 02:25:51.755 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-04 02:25:51.773 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-04 02:25:51.778 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-04 02:25:51.782 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-04 02:25:51.788 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-04 02:42:36.320 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-04 02:42:36.491 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-04 02:42:36.506 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-04 02:42:36.510 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-04 02:42:36.514 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-04 02:42:36.519 -05:00 [DBG] Using oidc as default scheme for forbid

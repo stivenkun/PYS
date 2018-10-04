@@ -66,10 +66,12 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         [HttpGet]
         public ActionResult Register()
         {
+            HttpContext.Session.SetObjectAsJson("app", null);
             return View(new ApplicationViewModel
             {
                 AppClaims = new List<AppClaims>() 
             });
+            
         }
         public IActionResult Create(Aplication appModel)
         {
@@ -97,6 +99,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
             if (apoList != null)
             {
                 apoList.Add(app);
+                HttpContext.Session.SetObjectAsJson("app", apoList);
             }
             else
             {
@@ -105,8 +108,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
                 HttpContext.Session.SetObjectAsJson("app", aplicationList);
             }
 
-            return Json(ServiceResponse.GetSuccessfulResponse());
-
+            //return Json(ServiceResponse.GetSuccessfulResponse());
+            return Json(new { responseCode = 0});
         }
     }
 }

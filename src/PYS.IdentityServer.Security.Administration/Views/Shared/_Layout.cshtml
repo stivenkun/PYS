@@ -20,9 +20,14 @@
     <link rel="stylesheet" href="~/css/Modals/iziModal.min.css" />
     <link rel="stylesheet" href="~/css/palette.css" />
     <link rel="stylesheet" href="~/css/Menu/Menu.css" />
+    <link rel="stylesheet" href="~/css/Loaders/jquery.loadingModal.css">
     <script src="~/lib/jquery/jquery.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.js"></script>
     <script src="~/js/Modals/iziModal.js"></script>
+    <script src="~/js/Loaders/jquery.preloaders.js"></script>
+    <script src="~/js/Loaders/jquery.loadingModal.js"></script>
+
+
     @RenderSection("scripts", required: false)
 </head>
 <body class="body-top" style="background-color:whitesmoke">
@@ -52,7 +57,7 @@
                 <ul>
                     <li><a href='#'><span>Home</span></a></li>
                     <li class='active has-sub'>
-                        <a href='#'><span>Aplicaciones</span></a>
+                        <a href='#'><span>Recursos</span></a>
                         <ul>
                             <li><a asp-action="Index" asp-controller="ApiResource">Listar</a></li>
                             @*<li class='has-sub'>
