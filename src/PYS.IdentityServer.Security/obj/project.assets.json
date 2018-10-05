@@ -13737,23 +13737,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tulio jimenez\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL 7000\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Backup\\PYS\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "projectUniqueName": "D:\\Documentos\\Empresa\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
       "projectName": "PYS.IdentityServer.Security",
-      "projectPath": "D:\\Backup\\PYS\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
-      "packagesPath": "C:\\Users\\tulio jimenez\\.nuget\\packages\\",
-      "outputPath": "D:\\Backup\\PYS\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\obj\\",
+      "projectPath": "D:\\Documentos\\Empresa\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\PYS.IdentityServer.Security.csproj",
+      "packagesPath": "C:\\Users\\DELL 7000\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\Empresa\\PYS\\PYS\\src\\PYS.IdentityServer.Security\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\tulio jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL 7000\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
