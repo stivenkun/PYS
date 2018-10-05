@@ -65,6 +65,117 @@ namespace PYS.IdentityServer.Security.Administration.Data.Migrations.IdentitySer
                     b.ToTable("AppClaims");
                 });
 
+            modelBuilder.Entity("PYS.IdentityServer.Security.Administration.ConfigurationStore.ApiResourceEntity", b =>
+                {
+                    b.Property<string>("Name")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("DisplayName");
+
+                    b.Property<bool>("Enabled");
+
+                    b.HasKey("Name");
+
+                    b.ToTable("ApiResources");
+                });
+
+            modelBuilder.Entity("PYS.IdentityServer.Security.Administration.ConfigurationStore.ClientEntity", b =>
+                {
+                    b.Property<string>("ClientId")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("AbsoluteRefreshTokenLifetime");
+
+                    b.Property<int>("AccessTokenLifetime");
+
+                    b.Property<int>("AccessTokenType");
+
+                    b.Property<bool>("AllowAccessTokensViaBrowser");
+
+                    b.Property<bool>("AllowOfflineAccess");
+
+                    b.Property<bool>("AllowPlainTextPkce");
+
+                    b.Property<bool>("AllowRememberConsent");
+
+                    b.Property<bool>("AlwaysIncludeUserClaimsInIdToken");
+
+                    b.Property<bool>("AlwaysSendClientClaims");
+
+                    b.Property<int>("AuthorizationCodeLifetime");
+
+                    b.Property<bool>("BackChannelLogoutSessionRequired");
+
+                    b.Property<string>("BackChannelLogoutUri");
+
+                    b.Property<string>("ClientClaimsPrefix");
+
+                    b.Property<string>("ClientName");
+
+                    b.Property<string>("ClientUri");
+
+                    b.Property<int?>("ConsentLifetime");
+
+                    b.Property<bool>("EnableLocalLogin");
+
+                    b.Property<bool>("Enabled");
+
+                    b.Property<bool>("FrontChannelLogoutSessionRequired");
+
+                    b.Property<string>("FrontChannelLogoutUri");
+
+                    b.Property<int>("IdentityTokenLifetime");
+
+                    b.Property<bool>("IncludeJwtId");
+
+                    b.Property<string>("LogoUri");
+
+                    b.Property<string>("PairWiseSubjectSalt");
+
+                    b.Property<string>("ProtocolType");
+
+                    b.Property<int>("RefreshTokenExpiration");
+
+                    b.Property<int>("RefreshTokenUsage");
+
+                    b.Property<bool>("RequireClientSecret");
+
+                    b.Property<bool>("RequireConsent");
+
+                    b.Property<bool>("RequirePkce");
+
+                    b.Property<int>("SlidingRefreshTokenLifetime");
+
+                    b.Property<bool>("UpdateAccessTokenClaimsOnRefresh");
+
+                    b.HasKey("ClientId");
+
+                    b.ToTable("Clients");
+                });
+
+            modelBuilder.Entity("PYS.IdentityServer.Security.Administration.ConfigurationStore.IdentityResourceEntity", b =>
+                {
+                    b.Property<string>("Name")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("DisplayName");
+
+                    b.Property<bool>("Emphasize");
+
+                    b.Property<bool>("Enabled");
+
+                    b.Property<bool>("Required");
+
+                    b.Property<bool>("ShowInDiscoveryDocument");
+
+                    b.HasKey("Name");
+
+                    b.ToTable("IdentityResources");
+                });
 
             modelBuilder.Entity("AccessData.Models.AppClaims", b =>
                 {

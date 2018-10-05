@@ -47,13 +47,16 @@ namespace IdentityServerWithAspIdAndEF
 
             services.AddDbContext<AccessData.DataStore.ConfigurationStoreContext>(options =>
                 options.UseSqlServer(connectionString));
+        //    services.AddDbContext<ConfigurationStoreContext>(options =>
+        //options.UseSqlServer(connectionString));
             services.AddDbContext<AccessData.Datas.ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IApplicationRepository, ApplicationRepository>();
-
+            services.AddScoped<IAppClaimRepository, AppClaimRepository>();
+            
 
             //services.AddScoped<UserManager>();
             services.AddSession();

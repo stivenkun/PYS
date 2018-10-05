@@ -10,8 +10,8 @@ using PYS.IdentityServer.Security.Administration.ConfigurationStore;
 namespace PYS.IdentityServer.Security.Administration.Data.Migrations.IdentityServer.ConfigurationDb
 {
     [DbContext(typeof(ConfigurationStoreContext))]
-    [Migration("20180928022657_newTables")]
-    partial class newTables
+    [Migration("20181004194210_primaryKeys_newTables")]
+    partial class primaryKeys_newTables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

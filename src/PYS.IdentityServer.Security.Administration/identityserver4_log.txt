@@ -17192,3 +17192,15 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
 2018-10-04 02:42:36.510 -05:00 [DBG] Using Cookies as default scheme for sign-out
 2018-10-04 02:42:36.514 -05:00 [DBG] Using oidc as default scheme for challenge
 2018-10-04 02:42:36.519 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-04 15:06:43.707 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-04 15:06:43.859 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-04 15:06:43.871 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-04 15:06:43.875 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-04 15:06:43.883 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-04 15:06:43.890 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-04 15:07:22.481 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-04 15:07:22.634 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-04 15:07:22.650 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-04 15:07:22.654 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-04 15:07:22.658 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-04 15:07:22.669 -05:00 [DBG] Using oidc as default scheme for forbid

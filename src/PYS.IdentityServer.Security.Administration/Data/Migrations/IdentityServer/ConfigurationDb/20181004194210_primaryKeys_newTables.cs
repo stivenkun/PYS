@@ -3,11 +3,11 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PYS.IdentityServer.Security.Administration.Data.Migrations.IdentityServer.ConfigurationDb
 {
-    public partial class newTables : Migration
+    public partial class primaryKeys_newTables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-          
+
 
             migrationBuilder.CreateTable(
                 name: "Applications",
@@ -26,7 +26,8 @@ namespace PYS.IdentityServer.Security.Administration.Data.Migrations.IdentitySer
                     table.PrimaryKey("PK_Applications", x => x.Id);
                 });
 
-            
+
+
             migrationBuilder.CreateTable(
                 name: "AppClaims",
                 columns: table => new
@@ -57,6 +58,7 @@ namespace PYS.IdentityServer.Security.Administration.Data.Migrations.IdentitySer
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+
             migrationBuilder.DropTable(
                 name: "AppClaims");
 

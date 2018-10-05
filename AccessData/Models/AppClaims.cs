@@ -9,6 +9,7 @@ namespace AccessData.Models
     public class AppClaims
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { set; get; }
 
         [Required]

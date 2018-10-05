@@ -37,20 +37,24 @@
                         //alert("Registro agregado")                            
                         $('#appClaimsContent').load('/Application/AppClaimList');
                     }
+                    // hide the loading modal
+
+                    $('body').loadingModal('hide');
+                    // destroy the plugin          
+                    $('body').loadingModal('destroy');
+                },
+                error: function () {
+
+                    // hide the loading modal
+
+                    $('body').loadingModal('hide');
+                    // destroy the plugin          
+                    $('body').loadingModal('destroy');
 
                 }
-
             });
             e.stopImmediatePropagation();
-            // hide the loading modal
-            
-            $('body').loadingModal('hide');         
-            // destroy the plugin          
-            $('body').loadingModal('destroy');
-
-
         });
-
     });
 
 </script>

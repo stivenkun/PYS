@@ -122,7 +122,20 @@
             $('#openModal').iziModal('open');
         });
 
+        $("#Create").submit(function (e) {
+            e.preventDefault();
+            var data = $("#Create").serialize();
+            $.ajax({
+                url: '',
+                data: data,
+                type: 'POST',
+                success: function (response) {
 
+
+
+                }
+            });
+        });
 
     });
 
@@ -134,7 +147,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4" style="margin-left:30%">
-        <form asp-action="Register">
+        <form asp-action="Register" id="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Application.Name" class="control-label">Nombre</label>
