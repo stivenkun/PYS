@@ -17204,14 +17204,15 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
 2018-10-04 15:07:22.654 -05:00 [DBG] Using Cookies as default scheme for sign-out
 2018-10-04 15:07:22.658 -05:00 [DBG] Using oidc as default scheme for challenge
 2018-10-04 15:07:22.669 -05:00 [DBG] Using oidc as default scheme for forbid
-2018-10-04 17:08:30.765 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
-2018-10-04 17:08:30.922 -05:00 [DBG] Using Cookies as default scheme for authentication
-2018-10-04 17:08:30.938 -05:00 [DBG] Using Cookies as default scheme for sign-in
-2018-10-04 17:08:30.944 -05:00 [DBG] Using Cookies as default scheme for sign-out
-2018-10-04 17:08:30.950 -05:00 [DBG] Using oidc as default scheme for challenge
-2018-10-04 17:08:30.957 -05:00 [DBG] Using oidc as default scheme for forbid
-2018-10-04 17:08:40.009 -05:00 [INF] AuthenticationScheme: oidc was challenged.
-2018-10-04 17:10:40.596 -05:00 [DBG] Augmenting SignInContext
-2018-10-04 17:10:40.604 -05:00 [DBG] Adding amr claim with value: pwd
-2018-10-04 17:10:40.608 -05:00 [DBG] Adding auth_time claim with value: 1538691040
-2018-10-04 17:10:40.658 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-04 22:59:28.374 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-04 22:59:28.438 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-04 22:59:28.446 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-04 22:59:28.449 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-04 22:59:28.451 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-04 22:59:28.453 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-04 23:55:56.337 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-04 23:55:56.414 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-04 23:55:56.423 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-04 23:55:56.426 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-04 23:55:56.429 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-04 23:55:56.433 -05:00 [DBG] Using oidc as default scheme for forbid

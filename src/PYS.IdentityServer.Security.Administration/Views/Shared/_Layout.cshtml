@@ -26,11 +26,12 @@
     <script src="~/js/Modals/iziModal.js"></script>
     <script src="~/js/Loaders/jquery.preloaders.js"></script>
     <script src="~/js/Loaders/jquery.loadingModal.js"></script>
-
+    <script src="~/js/Site.js"></script>
 
     @RenderSection("scripts", required: false)
 </head>
 <body class="body-top" style="background-color:whitesmoke">
+    <div id="modal-alert2" data-iziModal-group="alert"></div>
     <div class="navbar-fixed-top menu-container">
         @if (!string.IsNullOrWhiteSpace(name))
         {
@@ -61,20 +62,20 @@
                         <ul>
                             <li><a asp-action="Index" asp-controller="ApiResource">Listar</a></li>
                             @*<li class='has-sub'>
-                    <a href='#'><span>Listar</span></a>
-                    <ul>
-                        <li><a href='#'><span>Sub Product</span></a></li>
-                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                                    <a href='#'><span>Listar</span></a>
+                                    <ul>
+                                        <li><a href='#'><span>Sub Product</span></a></li>
+                                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
 
-                    </ul>
-                </li>*@
+                                    </ul>
+                                </li>*@
                             @*<li class='has-sub'>
-                    <a href='#'><span>Crear</span></a>
-                    <ul>
-                        <li><a href='#'><span>Sub Product</span></a></li>
-                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
-                    </ul>
-                </li>*@
+                                    <a href='#'><span>Crear</span></a>
+                                    <ul>
+                                        <li><a href='#'><span>Sub Product</span></a></li>
+                                        <li class='last'><a href='#'><span>Sub Product</span></a></li>
+                                    </ul>
+                                </li>*@
                             <li><a asp-action="Create" asp-controller="ApiResource">Crear</a></li>
                         </ul>
 
@@ -98,11 +99,11 @@
                         </ul>
                     </li>
                     @*<li>
-            <a href='#'><span>Recursos</span></a>
-            <ul>
-                <li><a asp-action="Index" asp-controller="ApiResource">API</a></li>
-            </ul>
-        </li>*@
+                            <a href='#'><span>Recursos</span></a>
+                            <ul>
+                                <li><a asp-action="Index" asp-controller="ApiResource">API</a></li>
+                            </ul>
+                        </li>*@
                     <li><a href='#'><span>About</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
                     <li><a asp-action="Logout" asp-controller="Account">Salir</a></li>
@@ -114,7 +115,7 @@
         @RenderBody()
     </div>
     @*<script src="~/lib/jquery/jquery.js"></script>
-    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
-    @RenderSection("scripts", required: false)*@
+        <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+        @RenderSection("scripts", required: false)*@
 </body>
 </html>

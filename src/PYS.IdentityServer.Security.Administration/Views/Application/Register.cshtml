@@ -125,13 +125,17 @@
         $("#Create").submit(function (e) {
             e.preventDefault();
             var data = $("#Create").serialize();
+            debugger;
             $.ajax({
-                url: '',
+                url: '@Url.Action("Create")',
                 data: data,
                 type: 'POST',
                 success: function (response) {
-
-
+                    debugger;
+                    if (response.responseCode = 1) {
+                        alert('error', response.responseMessage);
+                        //alert('No se puedo agregar el registro')
+                    }
 
                 }
             });
@@ -151,31 +155,31 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Application.Name" class="control-label">Nombre</label>
-                <input asp-for="Application.Name" class="form-control" />
+                <input asp-for="Application.Name" name="Name" class="form-control" />
                 <span asp-validation-for="Application.Name" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Application.Url" class="control-label"></label>
-                <input asp-for="Application.Url" class="form-control" />
+                <input asp-for="Application.Url" name="Url" class="form-control" />
                 <span asp-validation-for="Application.Url" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Application.Description" class="control-label">Descripción</label>
-                <input asp-for="Application.Description" class="form-control" />
+                <input asp-for="Application.Description" name="Description" class="form-control" />
                 <span asp-validation-for="Application.Description" class="text-danger"></span>
             </div>
-   
+
             <div class="form-group">
                 <label asp-for="Application.IsActive" class="control-label">Activar</label><br />
                 <label class="switch">
-                    <input type="checkbox">
+                    <input type="checkbox" name="IsActive">
                     <span class="slider round"></span>
                 </label>
             </div>
 
             <div class="form-group">
                 <label asp-for="Application.IconSrc" class="control-label">Imagen</label>
-                <input type="file" name="file" />
+                <input type="file" name="IconSrc" />
                 <span asp-validation-for="Application.IconSrc" class="text-danger"></span>
             </div>
 
@@ -187,7 +191,7 @@
 
             </div>
 
- 
+
 
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default customButton" />
