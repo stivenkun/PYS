@@ -80,20 +80,29 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         {
             try
             {
-                _applicationRepository.Create(appModel);
-                _applicationRepository.SaveAsync().GetAwaiter().GetResult();
-                if (appModel.Id != 0)
+                if (ModelState.IsValid)
                 {
-                    var appList = HttpContext.Session.GetObjectFromJson<List<AppClaims>>("app");
-                    if(appList != null)
+
+                    _applicationRepository.Create(appModel);
+                    _applicationRepository.SaveAsync().GetAwaiter().GetResult();
+                    if (appModel.Id != 0)
                     {
-                        appList.ForEach(m =>
+                        var appList = HttpContext.Session.GetObjectFromJson<List<AppClaims>>("app");
+                        if (appList != null)
                         {
-                            m.ApplicationId = appModel.Id;
-                            _appClaimRepository.Create(m);
-                            _appClaimRepository.SaveAsync().GetAwaiter().GetResult();
-                        });                                                             
+                            appList.ForEach(m =>
+                            {
+                                m.ApplicationId = appModel.Id;
+                                _appClaimRepository.Create(m);
+                                _appClaimRepository.SaveAsync().GetAwaiter().GetResult();
+                            });
+                        }
                     }
+                }
+                else
+                {
+                    return Json(ServiceResponse.GetErrorResponse("Los datos ingresados no son válidos"));
+
                 }
             }
             catch (Exception ex)
@@ -102,7 +111,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
             }
             
 
-            return View();
+            return RedirectToAction("Index");
 
         }
         public ActionResult AddAppClaim()
