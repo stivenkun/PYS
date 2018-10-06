@@ -41,7 +41,7 @@ namespace IdentityServer4.Authorize.UI
         private readonly IEmailSender _emailSender;
 
         public AccountController(
-            UserManager<ApplicationUser> userManager,
+            //UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
@@ -50,7 +50,7 @@ namespace IdentityServer4.Authorize.UI
             IEmailSender emailSender,
             ILogger<AccountController> logger)
         {
-            _userManager = userManager;
+            //_userManager = userManager;
             _signInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
@@ -251,6 +251,7 @@ namespace IdentityServer4.Authorize.UI
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout(LogoutInputModel model)
         {
+   
             // build a model so the logged out page knows what to display
             var vm = await BuildLoggedOutViewModelAsync(model.LogoutId);
 

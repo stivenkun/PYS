@@ -81,3 +81,32 @@
 .grants .grant li:last-child:after {
   content: '';
 }
+/*div login*/
+.customDivLogin {
+    padding-left: 35% !important;
+}
+.customButton {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #555555;
+    color: white;
+}
+.customButton:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+}
+
+.customButtonCancelar {
+
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+    .customButtonCancelar:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        background-color: #555555;
+        color: white;
+    }
