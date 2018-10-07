@@ -17806,3 +17806,4 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
 2018-10-06 20:23:45.987 -05:00 [DBG] Using Cookies as default scheme for sign-out
 2018-10-06 20:23:45.995 -05:00 [DBG] Using oidc as default scheme for challenge
 2018-10-06 20:23:46.001 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 21:27:17.230 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint

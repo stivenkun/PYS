@@ -268,34 +268,34 @@ namespace IdentityServer4.Authorize.UI
 
                 return RedirectToAction("CacheLoggedOut", m);
             }catch(Exception ex ){
-
+                throw ex;
 
             }
-            // build a model so the logged out page knows what to display
-            var vm = await BuildLoggedOutViewModelAsync(model.LogoutId);
+            //// build a model so the logged out page knows what to display
+            //var vm = await BuildLoggedOutViewModelAsync(model.LogoutId);
 
-            if (User?.Identity.IsAuthenticated == true)
-            {
-                // delete local authentication cookie
-                await _signInManager.SignOutAsync();
+            //if (User?.Identity.IsAuthenticated == true)
+            //{
+            //    // delete local authentication cookie
+            //    await _signInManager.SignOutAsync();
 
-                // raise the logout event
-                await _events.RaiseAsync(new UserLogoutSuccessEvent(User.GetSubjectId(), User.GetDisplayName()));
-            }
+            //    // raise the logout event
+            //    await _events.RaiseAsync(new UserLogoutSuccessEvent(User.GetSubjectId(), User.GetDisplayName()));
+            //}
 
-            // check if we need to trigger sign-out at an upstream identity provider
-            if (vm.TriggerExternalSignout)
-            {
-                // build a return URL so the upstream provider will redirect back
-                // to us after the user has logged out. this allows us to then
-                // complete our single sign-out processing.
-                string url = Url.Action("Logout", new { logoutId = vm.LogoutId });
+            //// check if we need to trigger sign-out at an upstream identity provider
+            //if (vm.TriggerExternalSignout)
+            //{
+            //    // build a return URL so the upstream provider will redirect back
+            //    // to us after the user has logged out. this allows us to then
+            //    // complete our single sign-out processing.
+            //    string url = Url.Action("Logout", new { logoutId = vm.LogoutId });
 
-                // this triggers a redirect to the external provider for sign-out
-                return SignOut(new AuthenticationProperties { RedirectUri = url }, vm.ExternalAuthenticationScheme);
-            }
+            //    // this triggers a redirect to the external provider for sign-out
+            //    return SignOut(new AuthenticationProperties { RedirectUri = url }, vm.ExternalAuthenticationScheme);
+            //}
 
-            return View("LoggedOut", vm);
+            //return View("LoggedOut", vm);
         }
 
         [HttpGet]
