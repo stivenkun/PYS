@@ -34,8 +34,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Clients
         #region contructors
 
         public ClientController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
+            //UserManager<ApplicationUser> userManager,
+            //SignInManager<ApplicationUser> signInManager,
             IIdentityServerInteractionService interaction,
             IClientStoreExtended clientStore,
             IAuthenticationSchemeProvider schemeProvider,
@@ -43,8 +43,8 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Clients
             IEmailSender emailSender,
             ILogger<ClientController> logger)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            //_userManager = userManager;
+            //_signInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;

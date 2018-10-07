@@ -17565,3 +17565,244 @@ System.InvalidOperationException: Unable to resolve service for type 'Microsoft.
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-06 17:31:05.966 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 17:31:06.048 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 17:31:06.055 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 17:31:06.058 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 17:31:06.059 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 17:31:06.062 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 17:31:19.816 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 17:34:06.458 -05:00 [DBG] Augmenting SignInContext
+2018-10-06 17:34:06.462 -05:00 [DBG] Adding amr claim with value: pwd
+2018-10-06 17:34:06.465 -05:00 [DBG] Adding auth_time claim with value: 1538865246
+2018-10-06 17:34:06.494 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-06 17:35:33.429 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.SignInManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'IdentityServer4.Authorize.UI.AccountController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.<Invoke>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Session.SessionMiddleware.<Invoke>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-06 17:47:46.031 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 17:47:46.123 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 17:47:46.132 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 17:47:46.135 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 17:47:46.139 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 17:47:46.142 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 17:54:58.359 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-10-06 18:35:45.868 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 18:35:46.006 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 18:35:46.017 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 18:35:46.022 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 18:35:46.027 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 18:35:46.031 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 18:38:28.481 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-10-06 18:38:41.331 -05:00 [INF] AuthenticationScheme: Cookies signed out.
+2018-10-06 18:38:58.504 -05:00 [INF] AuthenticationScheme: oidc signed out.
+2018-10-06 18:43:25.468 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 18:43:25.684 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 18:43:25.704 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 18:43:25.713 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 18:43:25.716 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 18:43:25.720 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 18:43:35.144 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 18:43:49.032 -05:00 [DBG] Augmenting SignInContext
+2018-10-06 18:43:49.047 -05:00 [DBG] Adding amr claim with value: pwd
+2018-10-06 18:43:49.054 -05:00 [DBG] Adding auth_time claim with value: 1538869429
+2018-10-06 18:43:49.116 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-06 18:44:31.804 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-10-06 18:44:34.562 -05:00 [INF] AuthenticationScheme: Cookies signed out.
+2018-10-06 18:44:34.573 -05:00 [INF] AuthenticationScheme: oidc signed out.
+2018-10-06 18:44:37.294 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 18:46:28.747 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 18:46:28.965 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 18:46:29.045 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 18:46:29.055 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 18:46:29.061 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 18:46:29.078 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 18:47:04.857 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 19:32:18.769 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 19:32:18.848 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 19:32:18.859 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 19:32:18.862 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 19:32:18.865 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 19:32:18.868 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 19:32:25.129 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 19:32:33.226 -05:00 [DBG] Augmenting SignInContext
+2018-10-06 19:32:33.232 -05:00 [DBG] Adding amr claim with value: pwd
+2018-10-06 19:32:33.234 -05:00 [DBG] Adding auth_time claim with value: 1538872353
+2018-10-06 19:32:33.282 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-06 19:32:45.503 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-10-06 19:33:54.208 -05:00 [INF] AuthenticationScheme: Cookies signed out.
+2018-10-06 19:34:32.069 -05:00 [INF] AuthenticationScheme: oidc signed out.
+2018-10-06 19:35:36.600 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 19:35:41.828 -05:00 [DBG] Augmenting SignInContext
+2018-10-06 19:35:41.831 -05:00 [DBG] Adding amr claim with value: pwd
+2018-10-06 19:35:41.836 -05:00 [DBG] Adding auth_time claim with value: 1538872541
+2018-10-06 19:35:41.839 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-06 19:38:00.601 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-10-06 19:45:42.050 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 19:45:42.279 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 19:45:42.301 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 19:45:42.316 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 19:45:42.341 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 19:45:42.351 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 19:46:56.957 -05:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2018-10-06 19:46:59.939 -05:00 [INF] AuthenticationScheme: Cookies signed out.
+2018-10-06 19:47:08.870 -05:00 [INF] AuthenticationScheme: oidc signed out.
+2018-10-06 19:47:28.213 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 19:50:08.953 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 19:50:09.073 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 19:50:09.087 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 19:50:09.090 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 19:50:09.094 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 19:50:09.098 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 19:50:16.088 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 20:01:38.944 -05:00 [DBG] Augmenting SignInContext
+2018-10-06 20:01:38.949 -05:00 [DBG] Adding amr claim with value: pwd
+2018-10-06 20:01:38.954 -05:00 [DBG] Adding auth_time claim with value: 1538874098
+2018-10-06 20:01:39.002 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-06 20:06:25.216 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 20:06:25.347 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 20:06:25.359 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 20:06:25.362 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 20:06:25.366 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 20:06:25.371 -05:00 [DBG] Using oidc as default scheme for forbid
+2018-10-06 20:06:33.886 -05:00 [INF] AuthenticationScheme: oidc was challenged.
+2018-10-06 20:09:27.352 -05:00 [DBG] Augmenting SignInContext
+2018-10-06 20:09:27.362 -05:00 [DBG] Adding amr claim with value: pwd
+2018-10-06 20:09:27.367 -05:00 [DBG] Adding auth_time claim with value: 1538874567
+2018-10-06 20:09:27.433 -05:00 [INF] AuthenticationScheme: Cookies signed in.
+2018-10-06 20:10:31.671 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Identity.UserManager`1[IdentityServerWithAspIdAndEF.Models.ApplicationUser]' while attempting to activate 'PYS.IdentityServer.Security.Administration.Authorize.Clients.ClientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.<Invoke>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Session.SessionMiddleware.<Invoke>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\IdentityServerMiddleware.cs:line 72
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in C:\local\identity\server4\IdentityServer4\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-10-06 20:23:45.782 -05:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-10-06 20:23:45.958 -05:00 [DBG] Using Cookies as default scheme for authentication
+2018-10-06 20:23:45.978 -05:00 [DBG] Using Cookies as default scheme for sign-in
+2018-10-06 20:23:45.987 -05:00 [DBG] Using Cookies as default scheme for sign-out
+2018-10-06 20:23:45.995 -05:00 [DBG] Using oidc as default scheme for challenge
+2018-10-06 20:23:46.001 -05:00 [DBG] Using oidc as default scheme for forbid

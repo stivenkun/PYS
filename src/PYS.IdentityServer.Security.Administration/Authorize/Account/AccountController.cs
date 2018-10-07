@@ -42,7 +42,7 @@ namespace IdentityServer4.Authorize.UI
 
         public AccountController(
             //UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
+            //SignInManager<ApplicationUser> signInManager,
             IIdentityServerInteractionService interaction,
             IClientStore clientStore,
             IAuthenticationSchemeProvider schemeProvider,
@@ -51,7 +51,7 @@ namespace IdentityServer4.Authorize.UI
             ILogger<AccountController> logger)
         {
             //_userManager = userManager;
-            _signInManager = signInManager;
+            //_signInManager = signInManager;
             _interaction = interaction;
             _clientStore = clientStore;
             _schemeProvider = schemeProvider;
@@ -243,7 +243,11 @@ namespace IdentityServer4.Authorize.UI
 
             return View(vm);
         }
-
+        //[ValidateAntiForgeryToken]
+        public ActionResult CacheLoggedOut(LoggedOutViewModel m)
+        {
+            return View(m);
+        }
         /// <summary>
         /// Handle logout page postback
         /// </summary>
@@ -251,7 +255,22 @@ namespace IdentityServer4.Authorize.UI
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout(LogoutInputModel model)
         {
-   
+            try
+            {
+                LoggedOutViewModel m = new LoggedOutViewModel
+                {
+                    PostLogoutRedirectUri = HttpContext.GetIdentityServerOrigin(),
+                    ClientName = HttpContext.User.Identity.GetIdentityProvider()
+                };
+                await HttpContext.SignOutAsync("Cookies");
+                await HttpContext.SignOutAsync("oidc");
+                HttpContext.Request.Cookies.Keys.ToList().ForEach(c => { Response.Cookies.Delete(c); });
+
+                return RedirectToAction("CacheLoggedOut", m);
+            }catch(Exception ex ){
+
+
+            }
             // build a model so the logged out page knows what to display
             var vm = await BuildLoggedOutViewModelAsync(model.LogoutId);
 
