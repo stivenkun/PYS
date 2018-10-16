@@ -105,6 +105,7 @@ namespace IdentityServerWithAspIdAndEF
                 options.RequireHttpsMetadata = false;
                 options.ClientId = "mvc";
                 options.SaveTokens = true;
+                options.SignOutScheme = "Cookies";
             });
 
             #endregion

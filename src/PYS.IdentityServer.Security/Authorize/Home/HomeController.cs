@@ -5,24 +5,34 @@
 using IdentityServer4.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Repository.Interfaces;
 using System.Threading.Tasks;
 
 namespace IdentityServer4.Authorize.UI
 {
-    [SecurityHeaders]
+    //[SecurityHeaders]
     public class HomeController : Controller
     {
         private readonly IIdentityServerInteractionService _interaction;
+        private readonly IApplicationRepository _applicationRepository;
 
-        public HomeController(IIdentityServerInteractionService interaction)
+        public HomeController(IIdentityServerInteractionService interaction
+            ,IApplicationRepository applicationRepository)
         {
             _interaction = interaction;
+            _applicationRepository = applicationRepository;
         }
         public IActionResult Index()
         {
+            var aplicaciones =  _applicationRepository.FindAllAsync().GetAwaiter().GetResult();
             return View();
         }
 
+        public IActionResult ApplicationMenu()
+        {
+
+            return View();
+        }
         /// <summary>
         /// Shows the error page
         /// </summary>

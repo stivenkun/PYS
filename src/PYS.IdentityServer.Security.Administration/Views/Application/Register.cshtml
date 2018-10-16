@@ -132,11 +132,11 @@
                 type: 'POST',
                 success: function (response) {
                     debugger;
-                    if (response.responseCode = 1) {
+                    if (response.responseCode == 1) {
                         alert('error', response.responseMessage);
                         //alert('No se puedo agregar el registro')
-                    }
-
+                    } else { window.location = '@Url.Action("Index")';}
+                    
                 }
             });
         });

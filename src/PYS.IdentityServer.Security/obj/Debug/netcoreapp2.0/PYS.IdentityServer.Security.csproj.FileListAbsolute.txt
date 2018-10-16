@@ -70,3 +70,8 @@ D:\Backup\PYS\PYS\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PY
 D:\Backup\PYS\PYS\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.dll
 D:\Backup\PYS\PYS\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.pdb
 D:\Documentos\Empresa\PYS\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.csprojAssemblyReference.cache
+D:\Documentos\Empresa\PYS\PYS\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\AccessData.dll
+D:\Documentos\Empresa\PYS\PYS\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\Repository.dll
+D:\Documentos\Empresa\PYS\PYS\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\Repository.pdb
+D:\Documentos\Empresa\PYS\PYS\src\PYS.IdentityServer.Security\bin\Debug\netcoreapp2.0\AccessData.pdb
+D:\Documentos\Empresa\PYS\PYS\src\PYS.IdentityServer.Security\obj\Debug\netcoreapp2.0\PYS.IdentityServer.Security.csproj.CopyComplete

@@ -15,8 +15,8 @@ namespace AccessData.Models
         [Required]
         public string Name { set; get; }
 
-        [Url]
-        [Required]
+        //[Url]
+        //[Required]
         public string Url { set; get; }
  
         public string Description { set; get; }

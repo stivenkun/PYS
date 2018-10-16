@@ -102,7 +102,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Users
                 return View();
             }
         }
-
+        //ARREGLAR CON REPOSITORIO
         [HttpGet]
         public ActionResult Edit(string id)
         {

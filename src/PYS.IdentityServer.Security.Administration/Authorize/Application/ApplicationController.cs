@@ -80,7 +80,7 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
         {
             try
             {
-                if (ModelState.IsValid)
+                if (!string.IsNullOrEmpty(appModel.Name))
                 {
 
                     _applicationRepository.Create(appModel);
@@ -109,9 +109,9 @@ namespace PYS.IdentityServer.Security.Administration.Authorize.Application
             {
                 return Json(ServiceResponse.GetErrorResponse(ex.ToString(), null));
             }
-            
 
-            return RedirectToAction("Index");
+
+            return Json(ServiceResponse.GetSuccessfulResponse("Los datos se ingresaron correctamente"));
 
         }
         public ActionResult AddAppClaim()

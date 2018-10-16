@@ -17,6 +17,8 @@ using IdentityServerWithAspIdAndEF.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.IdentityModel.Tokens.Jwt;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
+using Repository.Repositories;
+using Repository.Interfaces;
 
 namespace IdentityServerWithAspIdAndEF
 {
@@ -42,13 +44,25 @@ namespace IdentityServerWithAspIdAndEF
             string connectionString = Configuration.GetConnectionString("IdentityServerConnection");
             var migrationsAssembly = typeof(Startup).GetTypeInfo().Assembly.GetName().Name;
 
+            services.AddDbContext<AccessData.DataStore.ConfigurationStoreContext>(options =>
+                options.UseSqlServer(connectionString));
+
+            services.AddDbContext<AccessData.Datas.ApplicationDbContext>(options =>
+                options.UseSqlServer(connectionString));
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
 
+
                 .AddDefaultTokenProviders();
+
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IApplicationRepository, ApplicationRepository>();
+            services.AddScoped<IAppClaimRepository, AppClaimRepository>();
 
             services.AddMvc();
 
@@ -142,7 +156,7 @@ namespace IdentityServerWithAspIdAndEF
                 app.UseExceptionHandler("/Home/Error");
             }
 
-           
+
 
             app.UseStaticFiles();
             app.UseIdentityServer();
