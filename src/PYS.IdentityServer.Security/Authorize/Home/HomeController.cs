@@ -24,14 +24,13 @@ namespace IdentityServer4.Authorize.UI
         }
         public IActionResult Index()
         {
-            var aplicaciones =  _applicationRepository.FindAllAsync().GetAwaiter().GetResult();
             return View();
         }
 
         public IActionResult ApplicationMenu()
         {
-
-            return View();
+            var aplicaciones = _applicationRepository.FindAllAsync().GetAwaiter().GetResult();
+            return View(aplicaciones);
         }
         /// <summary>
         /// Shows the error page
